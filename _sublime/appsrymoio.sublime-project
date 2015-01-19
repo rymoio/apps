@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/rymo/Sites/apps.rymo.io",
+            "folder_exclude_patterns": [
+                ".codekit-cache",
+                ".sass-cache"
+            ],
+            "file_exclude_patterns": [
+
+            ]
+		}
+	]
+}

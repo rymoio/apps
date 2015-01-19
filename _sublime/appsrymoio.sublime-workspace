@@ -1,0 +1,1476 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"child",
+				"children  (function)"
+			],
+			[
+				"rol",
+				"rolls_left"
+			],
+			[
+				"togg",
+				"toggleClass  (function)"
+			],
+			[
+				"has",
+				"hasClass  (function)"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"border",
+				"border-collapse"
+			],
+			[
+				"total",
+				"totalScore"
+			],
+			[
+				"bord",
+				"border-collapse"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"POS",
+				"POST_EXTRAS	(statement)"
+			],
+			[
+				"POST_",
+				"POST_TAGS	(statement)"
+			],
+			[
+				"color",
+				"colorflag"
+			],
+			[
+				"new",
+				"newvenv"
+			],
+			[
+				"del",
+				"delvenv"
+			],
+			[
+				"pow",
+				"powerline_path"
+			],
+			[
+				"stu",
+				"study_data_raw"
+			],
+			[
+				"sor",
+				"sorted_blank_data	(statement)"
+			],
+			[
+				"mas",
+				"master_blank_data	(statement)"
+			],
+			[
+				"mast",
+				"master_blank_data	(statement)"
+			],
+			[
+				"exc",
+				"except	(keyword)"
+			],
+			[
+				"csv",
+				"csv_to_dict	(function)"
+			],
+			[
+				"str",
+				"strptime	(function)"
+			],
+			[
+				"_C",
+				"_CLEAR	(statement)"
+			],
+			[
+				"sort",
+				"sorted_data	(statement)"
+			],
+			[
+				"add",
+				"add_format"
+			],
+			[
+				"_bold",
+				"_boldmoney	(statement)"
+			],
+			[
+				"_bol",
+				"_boldnumber	(statement)"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"def",
+				"defaults	(global, instance)"
+			],
+			[
+				"sublime",
+				"sublime-settings"
+			],
+			[
+				"set",
+				"settings	(local, instance)"
+			],
+			[
+				"saved",
+				"saved_layouts"
+			],
+			[
+				"sp",
+				"splitext  (function)"
+			],
+			[
+				"get",
+				"get_syntax"
+			],
+			[
+				"syn",
+				"syntax_path	(local, instance)"
+			],
+			[
+				"newsy",
+				"new_syntax_path"
+			],
+			[
+				"subl",
+				"sublime"
+			],
+			[
+				"ca",
+				"catch_errors"
+			],
+			[
+				"JekyllNe",
+				"JekyllNewPostBase	(global, class)"
+			],
+			[
+				"posts",
+				"posts_path"
+			],
+			[
+				"error",
+				"error_message"
+			],
+			[
+				"run",
+				"run_command"
+			],
+			[
+				"creat",
+				"create(filename)	(attribute, function)"
+			],
+			[
+				"crea",
+				"create_file(name)	(attribute, function)"
+			],
+			[
+				"file",
+				"file_ext	(local, instance)"
+			],
+			[
+				"ex",
+				"except	(keyword, instance)"
+			],
+			[
+				"pag",
+				"page.title"
+			],
+			[
+				"post",
+				"paginator.posts"
+			],
+			[
+				"acc",
+				"accordTitles"
+			],
+			[
+				"el",
+				"elsif	elsif"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"qu",
+				"queryInfo"
+			],
+			[
+				"modify-",
+				"modify-note-modal"
+			],
+			[
+				"ht",
+				"htmlArray"
+			],
+			[
+				"columns",
+				"columns_array"
+			],
+			[
+				"notes",
+				"notes_size"
+			],
+			[
+				"getA",
+				"getAllSize"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"all",
+				"allLen"
+			],
+			[
+				"recC",
+				"recCustPOtoProj"
+			],
+			[
+				"custP",
+				"custPOtoProjResults"
+			],
+			[
+				"cu",
+				"customerid"
+			],
+			[
+				"prj_",
+				"prj_autoid__c"
+			],
+			[
+				"fldp",
+				"FLD_TASK_PROJID"
+			],
+			[
+				"CON",
+				"CONST_ISSUE_STATUSID"
+			],
+			[
+				"FLD_I",
+				"FLD_ISS_STATUSID"
+			],
+			[
+				"CONST",
+				"CONST_ISSUE_STAGEID"
+			],
+			[
+				"FLD_ISS",
+				"FLD_ISS_STAGEID"
+			],
+			[
+				"FLD_CO",
+				"FLD_CO_DATE"
+			],
+			[
+				"FL",
+				"FLD_ISS_DATE"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"htmj",
+				"Set Syntax: HTML (Jekyll)"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"JSLint"
+			],
+			[
+				"pack:",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"add rep",
+				"Package Control: Add Repository"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"jnd",
+				"Jekyll: New draft"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"jdr",
+				"Jekyll: New draft"
+			],
+			[
+				"jend",
+				"Jekyll: New draft"
+			],
+			[
+				"jdra",
+				"Jekyll: New draft"
+			],
+			[
+				"jdraf",
+				"Jekyll: New draft"
+			],
+			[
+				"newdr",
+				"Jekyll: New draft"
+			],
+			[
+				"jekdra",
+				"Jekyll: New draft"
+			],
+			[
+				"jekdr",
+				"Jekyll: New draft"
+			],
+			[
+				"jeky",
+				"Jekyll: New post"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"jd",
+				"Jekyll: New draft"
+			],
+			[
+				"new drf",
+				"Jekyll: New draft"
+			],
+			[
+				"draf",
+				"Jekyll: New draft"
+			],
+			[
+				"jey",
+				"Jekyll: New draft"
+			],
+			[
+				"jek",
+				"Jekyll: New post"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"!",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"lin",
+				"Python: Disable Pep8 Linting On View"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"ori:des",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"orig:cpr",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"orig:pr",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"htmlj",
+				"Set Syntax: HTML (Jekyll)"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ogmo",
+				"Origami: Move File to Pane on the Right"
+			],
+			[
+				"oricr",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"restor",
+				"Origami: Restore Saved Layout"
+			],
+			[
+				"save",
+				"Origami: Save Current Layout"
+			],
+			[
+				"resto",
+				"Origami: Restore Saved Layout"
+			],
+			[
+				"reso",
+				"Origami: Restore Saved Layout"
+			],
+			[
+				"oricrri",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"origcre",
+				"Origami: Create Pane Below"
+			],
+			[
+				"orig",
+				"Origami: Create Pane Below"
+			],
+			[
+				"origaremo",
+				"Origami: Remove Saved Layout"
+			],
+			[
+				"res",
+				"Origami: Restore Saved Layout"
+			],
+			[
+				"re",
+				"Origami: Restore Saved Layout"
+			],
+			[
+				"orsave",
+				"Origami: Save Current Layout"
+			],
+			[
+				"origs",
+				"Origami: Save Current Layout"
+			],
+			[
+				"des",
+				"Origami: Destroy Pane Below"
+			],
+			[
+				"dep",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"ori",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"origami",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"",
+				"ANF: New File"
+			],
+			[
+				"origars",
+				"Origami: Restore Saved Layout"
+			],
+			[
+				"anf",
+				"ANF: New File"
+			],
+			[
+				"synpy",
+				"Set Syntax: Python"
+			],
+			[
+				"py",
+				"Set Syntax: Python Django"
+			],
+			[
+				"orcre",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"jekd",
+				"Jekyll: New draft"
+			],
+			[
+				"jekn",
+				"Jekyll: New post"
+			],
+			[
+				"open dr",
+				"Jekyll: Open draft..."
+			],
+			[
+				"odr",
+				"Jekyll: Open draft..."
+			],
+			[
+				"dra",
+				"Jekyll: Open draft..."
+			],
+			[
+				"opdr",
+				"Jekyll: Open draft..."
+			],
+			[
+				"open",
+				"Jekyll: Open draft..."
+			],
+			[
+				"op",
+				"Jekyll: Open post..."
+			],
+			[
+				"opd",
+				"Jekyll: Open draft..."
+			],
+			[
+				"jekop",
+				"Jekyll: Open post..."
+			],
+			[
+				"new",
+				"Jekyll: New post"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"new post",
+				"Jekyll: New post"
+			],
+			[
+				"new ",
+				"Jekyll: New post"
+			],
+			[
+				"new po",
+				"Jekyll: New post"
+			],
+			[
+				"dr",
+				"Jekyll: Create new draft"
+			],
+			[
+				"post",
+				"Jekyll: Create new post"
+			],
+			[
+				"pytn",
+				"Python: Get back"
+			],
+			[
+				"snpy",
+				"Set Syntax: Python"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"pl",
+				"Plist Json Converter: JSON to PLIST"
+			],
+			[
+				"plist",
+				"Plist Json Converter: PLIST to JSON"
+			],
+			[
+				"markj",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"pack",
+				"Package Control: Create Package File"
+			],
+			[
+				"je",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"synj",
+				"Set Syntax: HTML (Jekyll)"
+			],
+			[
+				"synje",
+				"Set Syntax: JSON (Jekyll)"
+			],
+			[
+				"upgrad",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"syntax mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"create",
+				"Package Control: Create Package File"
+			],
+			[
+				"synhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"feth",
+				"Fetch: Manage"
+			],
+			[
+				"synhtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"synh",
+				"Set Syntax: HTML"
+			],
+			[
+				"snipp",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"snmu",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ns",
+				"Set Syntax: JavaScript (NSOA)"
+			],
+			[
+				"synmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"synjaoa",
+				"Set Syntax: JavaScript (NSOA)"
+			],
+			[
+				"synjo",
+				"Set Syntax: JavaScript (NSOA)"
+			],
+			[
+				"jaon",
+				"Set Syntax: JavaScript (NSOA)"
+			],
+			[
+				"synjoa",
+				"Set Syntax: JavaScript (NSOA)"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"paadd",
+				"Package Control: Add Repository"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			]
+		],
+		"width": 493.0
+	},
+	"console":
+	{
+		"height": 359.0,
+		"history":
+		[
+			"dsett",
+			"dsett = settings.get(\"default_post_extras\")",
+			"settings.get(\"default_post_extras\")",
+			"settings.get(\"default_post_layout\")",
+			"settings.has(\"default_post_layout\")",
+			"settings = sublime.load_settings('Jekyll.sublime-settings')",
+			"settings.has(\"default_post_layout\")",
+			"settings.has(\"default_post_extras\")",
+			"settings = sublime.load_settings('Jekyll')",
+			"import sublime",
+			"settings2.has(\"default_post_extras\")",
+			"settings2",
+			"settings2 = sublime.active_window().active_view().settings()",
+			"settings.has(\"default_post_extras\")",
+			"settings",
+			"settings.get(\"default_post_extras\")",
+			"settings",
+			"settings = sublime.load_settings('Jekyll')",
+			"import sublime",
+			"sublime.load_settings('Origami.sublime-settings').get('saved_layouts')",
+			"sublime.load_settings('Origami.sublime-settings')",
+			"sublime.load_settings('Origami.sublime-settings').get('saved_layouts')",
+			"sublime.load_settings('Origami.sublime-settings').has('saved_layouts')",
+			"sublime.load_settings('Origami.sublime-settings').has('Origami')",
+			"sublime.load_settings('Origami.sublime-settings')",
+			"view.settings().has('Origami')",
+			"view.settings.has('Origami')",
+			"view.settings()",
+			"import json",
+			"import simplejson as json",
+			"window.set_layout({'cells': [[0, 0, 1, 1], [0, 1, 2, 2], [1, 0, 2, 1]], 'cols': [0.0, 0.6687753606853021, 1.0], 'rows': [0.0, 0.5, 1.0]})",
+			"fixed_set_layout(window, {'cells': [[0, 0, 1, 1], [0, 1, 2, 2], [1, 0, 2, 1]], 'cols': [0.0, 0.6687753606853021, 1.0], 'rows': [0.0, 0.5, 1.0]})",
+			"window.get_layout()",
+			"os.path.join('Jekyll', 'Syntaxes', 'Markdown (Jekyll).tmLanguage')",
+			"import os",
+			"sublime.message_dialog('this is a test')",
+			"sublime.arch()",
+			"sublime.platform()",
+			"sublime.version()",
+			"view.file_name()",
+			"os.path.exists(default_settings_path)",
+			"default_settings_path = os.path.join(sublime.installed_packages_path(), 'Jekyll', 'Jekyll.sublime-settings')",
+			"os.path.join(sublime.installed_packages_path(), 'Jekyll', 'Jekyll.sublime-settings')",
+			"import os",
+			"os.path.join(sublime.installed_packages_path(), 'Jekyll', 'Jekyll.sublime-settings')",
+			"sublime.load_settings('Jekyll.sublime-settings').get('posts_path')",
+			"sublime.load_settings('Jekyll.sublime-settings').has('posts_path')",
+			"sublime.load_settings('Jekyll.sublime-settings').get('posts_path')",
+			"sublime.load_settings('Jekyll.sublime-settings').has('posts_path')",
+			"sublime.load_settings('Jekyll.sublime-settings).has('posts_path')",
+			"sublime.load_settings().has('posts_path')",
+			"view.settings().has('posts_path')",
+			"view.settings()",
+			"view.run_command('jekyll_post_frontmatter', args={\"path\": '/Users/rymo/Sites/website/_posts/2014-06-15-this-is-a-test.md', \"frontmatter\": '---\\nryan\\n---\\n\\n'})",
+			"myview.run_command('insert', {'characters': 'ryan'})",
+			"myview",
+			"myview = view.window().open_file('/Users/rymo/Sites/website/_posts/2014-06-15-this-is-a-test.md')",
+			"view.window().open_file('/Users/rymo/Sites/website/_posts/2014-06-15-this-is-a-test.md')",
+			"view.run_command('jekyll_post_frontmatter', args={\"path\": '/Users/rymo/Sites/website/_posts/2014-06-15-this-is-a-test.md', \"frontmatter\": '---\\nryan\\n---\\n\\n'})",
+			"view.insert(edit, 0, 'ryan')",
+			"view.file_name()",
+			"54/3",
+			"view.insert(edit, 0, 'hello world')",
+			"view.begin_edit()",
+			"view = sublime.active_window().new_file()",
+			"os.path.abspath(view.file_name())",
+			"os.path.dirname(view.file_name())",
+			"import os",
+			"window.open_file('/Users/rymo/Desktop/ryan_test.txt')",
+			"len(view.settings().get(\"ignored_packages\"))",
+			"view.settings().get(\"ignored_packages\")",
+			"view = window.active_view()",
+			"sublime",
+			"os.path.dirname(window.active_view().file_name())",
+			"os.path.dirname(window.active_view())",
+			"import os",
+			"print(window.active_view())",
+			"print(window.active_view().file_name())",
+			"window.active_view().file_name()",
+			"print(window.active_view().settings())",
+			"print(window.active_view().settings().get('folders'))",
+			"print('hello')",
+			"print 'hello'",
+			"log(f)",
+			"console.log(f)",
+			"print f",
+			"f",
+			"f = window.active_view().settings().get('folders')",
+			"window.active_view().settings().get('folders')",
+			"window.active_view().settings()['folders']",
+			"window.active_view().settings()[0]",
+			"for s in window.active_view().settings()",
+			"for s in window.active_view().settings():\\n\\r\\tprint s",
+			"for s in window.active_view().settings(): print s",
+			"for s in window.active_view().settings():",
+			"window.active_view().settings()",
+			"window",
+			"sublime.packages_path()",
+			"import sublime",
+			"view.substr(all_text[1])",
+			"for r in all_text:print view.substr(r)",
+			"all_text[0]",
+			"all_text",
+			"view.substr(all_text[1])",
+			"view.substr(all_text[0])",
+			"view.substr((1394, 1401))",
+			"for r in all_text:print view.substr(r)",
+			"for r in all_text: print view.substr(r)",
+			"all_text",
+			"all_text = view.find_all(\"(^```(\\0|\\w)+)\")",
+			"view.run_command('codeblock_to_highlight')",
+			"view.find_all(\"(^```(\\0|\\w)+)\")",
+			"view.run_command('codeblock_to_highlight')",
+			"view.replace(run.edit, (242, 249), \"{% highlight %}\")",
+			"view.replace(view.edit, (242, 249), \"{% highlight %}\")",
+			"view.replace(edit, (242, 249), \"{% highlight %}\")",
+			"view.find_all(\"(^```(\\0|\\w)+)\")",
+			"self.view.find_all(\"(^```(\\0|\\w)+)\")",
+			"view.run_command('codeblock_to_highlight')",
+			"view.settings().get('syntax')",
+			"view.settings().get('auto_name')",
+			"view.name()",
+			"view.run_command('codeblock_to_highlight')",
+			"view.run_command('highlight')",
+			"view.substr(sublime.Region(0, view.size()))",
+			"view.size()",
+			"view.run_command('highlight')",
+			"view.run_command('codeblock_to_highlight')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rymo/Sites/apps.rymo.io",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/island1"
+	],
+	"file_history":
+	[
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice.appcache",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/island1/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/island1/mkatandice-island1.appcache",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/mkatandice.appcache",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/_layouts/mkatandice/default.html",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/mkatandice.manifest",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/island1/mkatandice-island1.manifest",
+		"/Users/rymo/Projects/Personal/katan-js/examples/responsive.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/island1/game_board.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/main.js",
+		"/Users/rymo/Projects/Personal/katan-js/examples/responsive.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/custom2.css",
+		"/Users/rymo/Sites/apps.rymo.io/_layouts/base.html",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/mkatandice/head.html",
+		"/Users/rymo/Sites/apps.rymo.io/_site/mkatandice/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/_site/mkatandice/mkatandice.manifest",
+		"/Users/rymo/Projects/Personal/katan-js/katan.js",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/mkatandice/scripts.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/vendor.js",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/scripts.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/less/style.less",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/island1/legend.js",
+		"/Users/rymo/Sites/apps.rymo.io/_site/assets/less/style.less",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/style.min.css",
+		"/Users/rymo/Sites/apps.rymo.io/_site/assets/css/style.min.css",
+		"/Users/rymo/Sites/apps.rymo.io/_data/apps.yml",
+		"/Users/rymo/Sites/apps.rymo.io/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/vendor.js",
+		"/Users/rymo/Sites/apps.rymo.io/mcatandice/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mcatandice/main.js",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/navbar.html",
+		"/Users/rymo/Sites/apps.rymo.io/mcatandice/island1/index.html",
+		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/rymo/Sites/apps.rymo.io/about.md",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mcatandice/island1/legend.js",
+		"/Users/rymo/Projects/Personal/mcatan-dice/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/resources.css",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/mcatandice/scripts.html",
+		"/Users/rymo/Sites/apps.rymo.io/_config.yml",
+		"/Users/rymo/Sites/apps.rymo.io/_layouts/mcatandice/default.html",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/head.html",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/mcatandice/head.html",
+		"/Users/rymo/Sites/website/assets/less/style.less",
+		"/Users/rymo/Sites/website/projects/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/mcatandice/navbar.html",
+		"/Users/rymo/Sites/rymo.io/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/main.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/less/custom.less",
+		"/Users/rymo/Sites/rymo.io/_includes/head.html",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/ganalytics.html",
+		"/Users/rymo/Sites/apps.rymo.io/.gitignore",
+		"/Users/rymo/Sites/apps.rymo.io/_sublime/appsrymoio.sublime-project",
+		"/Users/rymo/Sites/apps.rymo.io/mcatandice/island2/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/config.codekit",
+		"/Users/rymo/Projects/Personal/mcatan/js/game_board2.js",
+		"/Users/rymo/Projects/Personal/mcatan/js/game_board.js",
+		"/Users/rymo/Projects/Personal/mcatan/js/legend.js",
+		"/Users/rymo/Projects/Personal/mcatan/css/resources.css",
+		"/Users/rymo/Projects/Personal/mcatan/js/main.js",
+		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/JSLint.sublime-settings",
+		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings",
+		"/Users/rymo/Projects/Personal/mcatan/js/vendor/moz-cookies.js",
+		"/Users/rymo/Projects/Personal/mcatan/README.md",
+		"/Users/rymo/Projects/Personal/mcatan/bootstrap/css/bootstrap.css",
+		"/Users/rymo/Projects/Personal/mcatan/index.html",
+		"/Users/rymo/Projects/Personal/mcatan/404.html",
+		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/rymo/Projects/Personal/mcatan/css/custom.css",
+		"/Users/rymo/Projects/Personal/mcatan/index2.html",
+		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/HTML (Jekyll).sublime-settings",
+		"/Users/rymo/Projects/Personal/mcatan/css/main.css",
+		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/rymo/Projects/Personal/mcatan/img/.gitignore",
+		"/Users/rymo/Projects/Personal/mcatan/fonts/resources.html",
+		"/Users/rymo/Projects/Personal/mcatan/fonts/flaticon.svg",
+		"/Users/rymo/Projects/Personal/mcatan/fonts/flaticon.css",
+		"/Users/rymo/Projects/Personal/mcatan/game_board.js",
+		"/Users/rymo/default.html",
+		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/rymo/.dotfiles/.gitconfig",
+		"/Users/rymo/.dotfiles/.gitattributes_global",
+		"/Users/rymo/Projects/Personal/sublime-jekyll/.git/COMMIT_EDITMSG",
+		"/Users/rymo/Projects/Personal/sublime-jekyll/jekyll.py",
+		"/Users/rymo/Sites/website/_drafts/2014-12-17-test5.md",
+		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
+		"/Users/rymo/Sites/website/_drafts/2014-12-17-test2.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-17-test.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-17-test7.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-17-test4.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-17-test3.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-16-test2.md",
+		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/rymo/Sites/website/_drafts/2014-12-16-test.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-16-test6.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-16-test5.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-16-test4.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-16-test3.md",
+		"/Users/rymo/Dropbox/sublime-text-3/Packages/User/Tomorrow-Night Markdown.tmTheme",
+		"/Users/rymo/Desktop/MarkdownExample.md",
+		"/Users/rymo/Dropbox/sublime-text-3/Packages/User/Monokai Markdown.tmTheme",
+		"/Users/rymo/Projects/Personal/sublime-jekyll/.git/TAG_EDITMSG",
+		"/Users/rymo/Projects/Personal/sublime-jekyll/messages/2.1.0.txt",
+		"/Users/rymo/Projects/Personal/sublime-jekyll/Jekyll.sublime-settings",
+		"/Users/rymo/Projects/Personal/sublime-jekyll/README.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-07-test-8.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-07-test-7-with-tags.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-07-test6.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-07-test-draft-4.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-07-draft-test3.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-07-another-test-draft.md",
+		"/Users/rymo/Sites/website/_drafts/2014-12-07-test-draft.md",
+		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/Jekyll/Jekyll.sublime-settings",
+		"/Users/rymo/Projects/Personal/sublime-jekyll/messages.json",
+		"/Users/rymo/Projects/External/virtualfishwrapper/virtualenvwrapper.fish",
+		"/Users/rymo/tmp/show_filename.fish",
+		"/Users/rymo/.config/fish/config.fish",
+		"/Users/rymo/.dotfiles/.git/COMMIT_EDITMSG",
+		"/Users/rymo/.dotfiles/README.md",
+		"/Users/rymo/.dotfiles/.osx",
+		"/Users/rymo/.dotfiles/python.sh",
+		"/Users/rymo/.dotfiles/fish.sh",
+		"/Users/rymo/Desktop/Bash Log at 2014-11-23 22.07.52.txt",
+		"/Users/rymo/.dotfiles/extras.sh",
+		"/Users/rymo/.bash_profile",
+		"/Users/rymo/.profile",
+		"/Users/rymo/.dotfiles/.bash_prompt",
+		"/Users/rymo/.dotfiles/.config/powerline/themes/shell/rymo.json"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 121.0,
+		"where_history":
+		[
+			"/Users/rymo/Sites/apps.rymo.io/*,*.html",
+			"/Users/rymo/Sites/website/*,*.html",
+			"/Users/rymo/Sites/website",
+			"/Users/rymo/Sites/website/_includes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"manife",
+			"setElementState",
+			"mcatandice",
+			"\"super+k\", \"super+",
+			"text",
+			"20",
+			"paperRoad",
+			" class=\"hold\"",
+			"wheat",
+			"rock",
+			"project",
+			"project_links",
+			"..",
+			"\\/bower_components",
+			"7",
+			"14",
+			"7",
+			"Settlement",
+			"settlement",
+			"active",
+			"road",
+			", '1'",
+			"'#ecf0f1', ",
+			"<i class=\"glyph-icon resources-dice\"></i>",
+			"navbar-fi",
+			"badge",
+			"paperRoad",
+			"Road",
+			"#fff",
+			"paper",
+			" size=\"16\"",
+			"number",
+			"\n    font-size: 16px;",
+			"flaticon",
+			"Flaticon",
+			"flaticon",
+			"self.get_setting",
+			"get_setting",
+			"type(",
+			" + '\\n'",
+			"=\"",
+			"base03",
+			"black",
+			"base02",
+			"base03",
+			"base02",
+			"${jscbin}",
+			"${colorflag}",
+			"=",
+			"error",
+			"ws1",
+			"ws.",
+			"print",
+			".encode('utf-8')",
+			"print(",
+			"_STAR",
+			"\"",
+			"'font_name': 'Helvetica', ",
+			"row",
+			"path/to/favicon",
+			"path/to/favicon.ico",
+			"name",
+			".btn-dark",
+			"^.*",
+			", \"\\d{6}\"",
+			"\"customfield-7d49f223-2ec6-4a6d-b7f4-c05d66c209c6\": (\"\\d{6}\")",
+			"(?:\"customfield-7d49f223-2ec6-4a6d-b7f4-c05d66c209c6\": )(\"\\d{6}\")",
+			"^(\"[\\w\\d-]*\")",
+			"^([\\w\\d-]*)",
+			"\"\"",
+			"selected_layout",
+			"cells",
+			"nsoa-console",
+			"super",
+			"synatx",
+			"self.window.active_view()",
+			"e",
+			"path",
+			"view.setting()",
+			"view",
+			"self.",
+			"self._",
+			"output_view",
+			"title, ",
+			"\"title\": title, ",
+			"@catch_errors",
+			"settings.get",
+			"'''",
+			"\"",
+			"_posts",
+			"$",
+			"jekyll_",
+			"markItUp!",
+			"Clickable URLs",
+			"Keybindings",
+			"ctrl",
+			"(^\\w{1})",
+			"^\\w{1}",
+			"\"",
+			"\"trigger\": \"",
+			"\"trigger\": \"[\\w\\.]+\"",
+			" \"",
+			" =>",
+			"+0",
+			"0",
+			"fa-host",
+			"btn-info",
+			"font-code",
+			"span3",
+			"span12",
+			"h3",
+			"javascript",
+			"{% include \n",
+			"{% includes\n",
+			">\n",
+			"static/",
+			"{{ link.name }}",
+			"categories",
+			"navlink",
+			"social_links",
+			"var ",
+			" link",
+			"link",
+			"baseurl }}/",
+			"LinkedIn",
+			"site.baseurl}}",
+			".highlight",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\/assets\\/bower_components",
+			"get_setting",
+			"_sprint(",
+			"'",
+			"$1",
+			"$2",
+			"\"$1\"",
+			"\"",
+			"* \\1",
+			"* $1",
+			"* \\1",
+			"",
+			"baseurl }}",
+			"\\t",
+			"@import \"bootstrap/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 165.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "appsrymoio.sublime-project",
+	"replace":
+	{
+		"height": 82.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"game",
+				"js/game_board.js"
+			],
+			[
+				"ma",
+				"js/main.js"
+			],
+			[
+				"resou",
+				"css/resources.css"
+			],
+			[
+				"gamb",
+				"js/game_board.js"
+			],
+			[
+				"res",
+				"css/resources.css"
+			],
+			[
+				"boot",
+				"bootstrap/css/bootstrap.css"
+			],
+			[
+				".js",
+				"js/main.js"
+			],
+			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"s",
+				"css/stylish-portfolio.css"
+			],
+			[
+				"comm",
+				"Jekyll.sublime-commands"
+			],
+			[
+				"jek",
+				"jekyll.py"
+			],
+			[
+				"sett",
+				"Jekyll.sublime-settings"
+			],
+			[
+				"set",
+				"Jekyll.sublime-settings"
+			],
+			[
+				"ke",
+				"Default (OSX).sublime-keymap"
+			],
+			[
+				"form",
+				"assets/less/bootstrap/forms.less"
+			],
+			[
+				"mixi",
+				"assets/less/bootstrap/mixins.less"
+			],
+			[
+				"navb",
+				"assets/less/bootstrap/navbar.less"
+			],
+			[
+				"sit",
+				"_plugins/sitemap_generator.rb"
+			],
+			[
+				"conf",
+				"_config.yml"
+			],
+			[
+				"footer",
+				"_includes/base/footer.html"
+			],
+			[
+				"foot",
+				"_data/foot_links.yml"
+			],
+			[
+				"nav",
+				"_data/nav_links.yml"
+			],
+			[
+				"head",
+				"_includes/base/head.html"
+			],
+			[
+				"so",
+				"_includes/social_links.html"
+			],
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

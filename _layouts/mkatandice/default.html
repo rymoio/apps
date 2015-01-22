@@ -11,16 +11,17 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <!-- Fixed navbar -->
+        {% include mkatandice/navbar.html %}
+
         {{ content }}
 
 
-        <!-- Bootstrap core JavaScript
+        <!-- Core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         {% include scripts.html %}
-
         {% include mkatandice/scripts.html %}
-
         {% include ganalytics.html %}
     </body>
 </html>

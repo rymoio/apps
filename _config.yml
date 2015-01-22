@@ -1,12 +1,16 @@
 # Site settings
-title: mCatan Dice
+title: apps.rymo.io
+copyright:
+    holder: rymo.io
+    start: 2014
 author: Ryan Morrissey
 email: developer@apps.rymo.io
-description: A mobile-ready version of the official Catan Dice boardgame.
+description: A place to store some live apps I've built.
 baseurl: ""
-url: "https://apps.rymo.io/"
+url: "https://apps.rymo.io"
 twitter_username: rymoio
 github_username:  rymoio
 
 # Build settings
 markdown: kramdown
+exclude: ["bower_components", "README.md", "config.codekit", "assets/less"]

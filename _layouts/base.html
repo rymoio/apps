@@ -2,11 +2,11 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" {% if page.manifest %}manifest="{{ page.manifest }}"{% endif %}> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" manifest="http://apps.rymo.io/mkatandice.appcache" type="text/cache-manifest"> <!--<![endif]-->
 
     {% include head.html %}
 
-    <body style="padding-top: 50px;">
+    <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -16,13 +16,10 @@
 
         {{ content }}
 
-
         <!-- Core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         {% include scripts.html %}
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         {% include ganalytics.html %}
     </body>
 </html>

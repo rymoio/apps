@@ -3,4 +3,5 @@
     A mobile version of the popular Catan Dice Game™. Play Catan from your phone or tablet, even if you don't have dice or scorecards!
     <br><p class="text-muted"><span class="label label-info">Hint</span> It is best viewed on a larger mobile device or tablet (Galaxy S3, iPhone 6, iPad).</p>
   url: mkatandice
+  icon: fa-gamepad
 

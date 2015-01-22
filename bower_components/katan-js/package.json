@@ -1,0 +1,23 @@
+{
+	"name": "katan-js",
+	"description": "A simple helper library for creating SVG objects with the raphael.js library.",
+	"author": "Ryan Morrissey <me@rymo.io> (https://rymo.io/)",
+	"homepage": "https://github.com/rymoio/katan-js",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/rymoio/katan-js.git"
+	},
+	"bugs": {
+		"url": "http://github.com/rymoio/katan-js/issues"
+	},
+	"main": "katan.js",
+	"directories": {
+		"lib": "."
+	},
+	"devDependencies": {
+		"uglify-js": "2.4.16",
+		"clean-css": "3.0.1"
+	}
+}

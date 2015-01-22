@@ -2,44 +2,43 @@
 layout: mkatandice/default
 title: mKatan Dice
 ---
-<!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="jumbotron">
     <div class="container">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="../">
-                <span class="glyphicon glyphicon-home"></span>
-            </a>
-            <a class="navbar-brand" href="#">mKatan Dice</a>
-            <p class="navbar-text">Choose a map...</p>
+        <h1>mKatan Dice</h1>
+        <p class="lead">A mobile version of the popular Catan Dice Game™. Play Catan from your phone or tablet, even if you don't have dice or scorecards!</p>
+        <p class="text-muted"><span class="label label-info">Hint</span> It is best viewed on a larger mobile device or tablet (Galaxy S3, iPhone 6, iPad).</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center">Two variants of the popular dice game</h3>
         </div>
     </div>
-</nav>
-
-<div id="main" class="container">
     <div class="row">
         <div class="col-md-6">
-            <div class="panel panel-success">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Island 1 - PLAY NOW!</h3>
-                </div>
-                <div class="panel-body">
-                    <a href="island1" class="thumbnail">
-                        <img src="{{ site.baseurl }}/assets/img/mkatandice/mkatandice-island1.png" alt="Click to play Island 1">
-                    </a>
-                </div>
-            </div>
+            <h4>Island One</h4>
+            <p>This represents the standard dice version of the game in which players have 15 turns to accumulate the most amount of points possible by rolling the special dice.</p>
+            <p>This is best played by <span class="label label-warning">1-4 players</span> (for multi-player games, just share this app with your friends!).</p>
+            <a href="/mkatandice/islandone" class="btn btn-default" role="button">Goto map <i class="fa fa-map-marker fa-fw"></i></a>
         </div>
         <div class="col-md-6">
-            <div class="panel panel-danger">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Island 2 - COMING SOON!</h3>
-                </div>
-                <div class="panel-body">
-                    <a href="#" class="thumbnail">
-                        <img src="{{ site.baseurl }}/assets/img/holder.png" alt="Click to play Island 2">
-                    </a>
-                </div>
-            </div>
+            <h4>Island Two</h4>
+            <p>This represents the "plus" version of the game which more closely mirrors the classic boardgame. Players accumulate victory points in a battle to reach the winning number - 10!</p>
+            <p>This is best played by <span class="label label-warning">2-4 players</span> (for multi-player games, just share this app with your friends!).</p>
+            <a href="/mkatandice/islandtwo" class="btn btn-default" role="button">Goto map <i class="fa fa-map-marker fa-fw"></i></a>
         </div>
     </div>
+
+    <hr>
+
+    <footer>
+        <ul class="list-inline pull-right text-right">
+            <li><a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-lg fa-fw"></i></a></li>
+            <li><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-lg fa-fw"></i></a></li>
+            <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o fa-lg fa-fw"></i></a></li>
+        </ul>
+        <p>Copyright &copy; {{ site.copyright.start }}-{{ site.time | date: '%Y' }} {{ site.copyright.holder }}</p>
+    </footer>
 </div> <!-- /container -->

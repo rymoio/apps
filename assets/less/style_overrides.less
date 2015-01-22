@@ -1,0 +1,47 @@
+// Main elements
+
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+// Custom elements
+
+// Navbar enhancements
+.navbar-unread,
+.navbar-new {
+    position: absolute;
+    top: 30%;
+    right: 6px;
+    z-index: 10;
+    width: 6px;
+    height: 6px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 0;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    background-color: @brand-warning;
+    border-radius: 50%;
+
+    @media (max-width: @screen-xs-max) {
+        right: 20px;
+    }
+}
+.navbar-new {
+    width: auto;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 1px;
+    margin: -6px -10px;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: @brand-danger;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+// OfflineUI
+.offline-ui {
+    background-color: rgba(246, 246, 246, 0.5);
+}

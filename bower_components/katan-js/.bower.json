@@ -1,0 +1,15 @@
+{
+  "name": "katan-js",
+  "homepage": "https://github.com/rymoio/katan-js",
+  "version": "1.0.0",
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.0",
+    "commit": "d8aab7370f014c67673cd4b1820be976c4fdc5ba"
+  },
+  "_source": "git://github.com/rymoio/katan-js.git",
+  "_target": "~1.0.0",
+  "_originalSource": "katan-js",
+  "_direct": true
+}

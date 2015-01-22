@@ -1,17 +1,23 @@
 /**
- * PUT ALL IMPORTS HERE IN ORDER
+ * PUT ALL 3RD-PARTY IMPORTS HERE
  */
 
-@import "../bower_components/bootstrap/dist/css/bootstrap.css";
+// Twitter Bootstrap
+@import "../../bower_components/bootstrap/less/bootstrap.less";
+// FlatUI Free
+// @import "flatui_custom.less";
+// Font-Awesome
+@import "../../bower_components/font-awesome/less/font-awesome.less";
+// Animate.css
+@import (inline) "../../bower_components/animate.css/animate.css";
+// Offline
+@import (inline) "../../bower_components/offline/themes/offline-language-english-indicator.css";
+@import (inline) "../../bower_components/offline/themes/offline-theme-chrome-indicator.css";
+// Katan-js
+@import (inline) "../../bower_components/katan-js/katan.css";
 
-@import "../bower_components/animate.css/animate.css";
-
-@import "../css/offline-language-english-indicator.css";
-@import "../css/offline-theme-chrome-indicator.css";
-
-@import "../css/resources.css";
-@import "../css/custom2.css";
 
 /**
- * PUT ALL CUSTOM STYLE CODE HERE
+ * PUT USER SPECIFIC OVERRIDES HERE
  */
+@import "style_overrides.less";

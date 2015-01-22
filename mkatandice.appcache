@@ -6,35 +6,39 @@ CACHE MANIFEST
 # html
 /index.html
 /mkatandice/index.html
-/mkatandice/island1/index.html
+/mkatandice/islandone/index.html
+/mkatandice/rules/index.html
 
 # stylesheets
 /assets/css/style.min.css
-/assets/bower_components/bootstrap/dist/css/bootstrap.css
-/assets/bower_components/animate.css/animate.css
-/assets/css/offline-language-english-indicator.css
-/assets/css/offline-theme-chrome-indicator.css
-/assets/css/resources.css
-/assets/css/custom2.css
+/assets/mkatandice/css/mkatandice.min.css
+
 
 # javascripts
 /assets/js/min/modernizr.min.js
-/assets/js/min/vendor.min.js
 /assets/js/min/main.min.js
-/assets/js/mkatandice/min/vendor.min.js
-/assets/js/mkatandice/min/main.min.js
-/assets/js/mkatandice/island1/game_board.js
-/assets/js/mkatandice/island1/legend.js
+/assets/mkatandice/js/min/mkatandice.min.js
 
 # fonts
-/assets/fonts/resources.eot
-/assets/fonts/resources.svg
-/assets/fonts/resources.ttf
-/assets/fonts/resources.woff
+/assets/fonts/fontawesome-webfont.eot
+/assets/fonts/fontawesome-webfont.svg
+/assets/fonts/fontawesome-webfont.ttf
+/assets/fonts/fontawesome-webfont.woff
+/assets/fonts/FontAwesome.otf
+/assets/fonts/glyphicons-halflings.eot
+/assets/fonts/glyphicons-halflings.svg
+/assets/fonts/glyphicons-halflings.ttf
+/assets/fonts/glyphicons-halflings.woff
+/assets/mkatandice/fonts/Katan.eot
+/assets/mkatandice/fonts/Katan.svg
+/assets/mkatandice/fonts/Katan.ttf
+/assets/mkatandice/fonts/Katan.woff
+/assets/mkatandice/fonts/flaticon.eot
+/assets/mkatandice/fonts/flaticon.svg
+/assets/mkatandice/fonts/flaticon.ttf
+/assets/mkatandice/fonts/flaticon.woff
 
 # images
-/assets/img/mkatandice/mkatandice-island1.png
-/assets/img/holder.png
 
 NETWORK:
 *

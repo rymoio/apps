@@ -2,7 +2,7 @@
 
 $(function() {
     // determine issue count
-    var ghUrl = 'https://api.github.com/repos/rymoio/katan-js/issues?state=open',
+    var ghUrl = 'https://api.github.com/repos/rymoio/apps.rymo.io/issues?state=open',
         issCount = '';
     $.get(ghUrl, function (data) {
         issCount = (data && data.length > 0) ? data.length : '';

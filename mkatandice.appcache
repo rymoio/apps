@@ -7,7 +7,9 @@ CACHE MANIFEST
 /index.html
 /mkatandice/index.html
 /mkatandice/islandone/index.html
+/mkatandice/islandtwo/index.html
 /mkatandice/rules/index.html
+/mkatandice/highscores/index.html
 
 # stylesheets
 /assets/css/style.min.css

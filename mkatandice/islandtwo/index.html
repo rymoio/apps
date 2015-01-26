@@ -1,0 +1,262 @@
+---
+layout: mkatandice/default
+title: mKatan Dice - island two
+nav: islandtwo
+---
+<!-- Fixed second navbar -->
+<nav id="dice-rack" class="navbar navbar-default navbar-lower" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a id="roll-dice" class="navbar-brand navbar-subbrand" href="#">
+                <i class="flaticon-dice"></i> <span id="rolls_left_nav" class="badge">3</span>
+            </a>
+
+            <table class="navbar-dice">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</nav>
+
+<div id="main" class="container">
+    <!-- START PROGRESS BAR -->
+    <div class="progress progress-experience-points">
+        <div id="progress-section-1" class="progress-bar progress-bar-inactive" style="width: 10%;">1</div>
+        <div id="progress-section-2" class="progress-bar progress-bar-inactive" style="width: 10%;">2</div>
+        <div id="progress-section-3" class="progress-bar progress-bar-inactive" style="width: 10%;">3</div>
+        <div id="progress-section-4" class="progress-bar progress-bar-inactive" style="width: 10%;">4</div>
+        <div id="progress-section-5" class="progress-bar progress-bar-inactive" style="width: 10%;">5</div>
+        <div id="progress-section-6" class="progress-bar progress-bar-inactive" style="width: 10%;">6</div>
+        <div id="progress-section-7" class="progress-bar progress-bar-inactive" style="width: 10%;">7</div>
+        <div id="progress-section-8" class="progress-bar progress-bar-inactive" style="width: 10%;">8</div>
+        <div id="progress-section-9" class="progress-bar progress-bar-inactive" style="width: 10%;">9</div>
+        <div id="progress-section-10" class="progress-bar progress-bar-inactive" style="width: 10%;">10</div>
+    </div>
+    <!-- END PROGRESS BAR -->
+    <!-- START TAB PANES -->
+    <div role="tabpanel">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+                <a href="#map-tab" aria-controls="map-tab" role="tab" data-toggle="tab"><span class="hidden-xs">GAME </span>MAP</a>
+            </li>
+            <li role="presentation">
+                <a href="#scoreboard-tab" aria-controls="scoreboard-tab" role="tab" data-toggle="tab">SCORE<span class="hidden-xs">BOARD</span></a>
+            </li>
+            <li role="presentation">
+                <a href="#legend-tab" aria-controls="legend-tab" role="tab" data-toggle="tab">LEGEND</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <!-- START GAME MAP -->
+            <div role="tabpanel" class="tab-pane fade in active" id="map-tab">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="map" class="well well-sm well-blue">
+                            <div id="map2-svg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END GAME MAP -->
+
+            <!-- START SCOREBOARD -->
+            <div role="tabpanel" class="tab-pane fade" id="scoreboard-tab">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="scoreboard" class="well well-orange">
+                            <table class="scoreboard-two">
+                                <tr>
+                                    <td colspan="5">
+                                        <button type="button" class="btn btn-default btn-block" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <strong>Longest Road<i class="fa fa-fw fa-lg"></i><span class="text-right pull-right">+2</span></strong>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5">
+                                        <button type="button" class="btn btn-default btn-block" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            <strong>Largest Army<i class="fa fa-fw fa-lg"></i><span class="text-right pull-right">+2</span></strong>
+                                        </button>
+                                    </td>
+                                </tr>
+
+                                <tr class="row-placeholder"></tr>
+
+                                <tr>
+                                    <td>
+                                        <button type="button" class="btn btn-default btn-checkbox" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-times fa-fw fa-lg"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-default btn-checkbox" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-times fa-fw fa-lg"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-default btn-checkbox" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-times fa-fw fa-lg"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-default btn-checkbox" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-times fa-fw fa-lg"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-default btn-checkbox" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-times fa-fw fa-lg"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button type="button" class="btn btn-default btn-checkbox" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-times fa-fw fa-lg"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-default btn-checkbox" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-times fa-fw fa-lg"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-default btn-checkbox" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-times fa-fw fa-lg"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-default btn-checkbox" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-times fa-fw fa-lg"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-default btn-checkbox" aria-pressed="false" autocomplete="off">
+                                            <i class="fa fa-times fa-fw fa-lg"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END SCOREBOARD -->
+
+            <!-- START LEGEND -->
+            <div role="tabpanel" class="tab-pane fade" id="legend-tab">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="legend" class="well">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div id="legend-road"></div>
+                                    </td>
+                                    <td>
+                                        <i class="katan-brick"></i>
+                                    </td>
+                                    <td>
+                                        <i class="katan-lumber"></i>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="legend-knight"></div>
+                                    </td>
+                                    <td>
+                                        <i class="katan-ore"></i>
+                                    </td>
+                                    <td>
+                                        <i class="katan-wool"></i>
+                                    </td>
+                                    <td>
+                                        <i class="katan-grain"></i>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="legend-settlement"></div>
+                                    </td>
+                                    <td>
+                                        <i class="katan-brick"></i>
+                                    </td>
+                                    <td>
+                                        <i class="katan-lumber"></i>
+                                    </td>
+                                    <td>
+                                        <i class="katan-wool"></i>
+                                    </td>
+                                    <td>
+                                        <i class="katan-grain"></i>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="legend-city"></div>
+                                    </td>
+                                    <td>
+                                        <i class="katan-ore"></i>
+                                    </td>
+                                    <td>
+                                        <i class="katan-ore"></i>
+                                    </td>
+                                    <td>
+                                        <i class="katan-ore"></i>
+                                    </td>
+                                    <td>
+                                        <i class="katan-grain"></i>
+                                    </td>
+                                    <td>
+                                        <i class="katan-grain"></i>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END LEGEND -->
+        </div>
+    </div>
+    <!-- END TAB PANES -->
+
+    <!-- START MODAL -->
+    <div class="modal fade" id="reset-modal">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Reset Game</h4>
+                </div>
+                <div class="modal-body">
+                    <blockquote>
+                        <p>Measure Twice, Cut Once.</p>
+                        <footer>English Proverb</footer>
+                    </blockquote>
+                    <p>Are you sure you want to reset the game? All game pieces, dice and scores will be removed?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger" id="reset-confirm">Reset</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+</div> <!-- /container -->

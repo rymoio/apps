@@ -1,0 +1,46 @@
+---
+layout: mkatandice/default
+title: mKatan Dice - high scores
+nav: main
+---
+<div class="jumbotron">
+    <div class="container">
+        <h1>High Scores <br class="visible-xs-block"><small>yeah, i'm that good</small></h1>
+    </div>
+</div>
+
+<div class="container">
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">High Score Table</div>
+            <div class="panel-body">
+                <p>High scores are stored locally in your browser, so if you clear your cache they will disappear.</p>
+            </div>
+
+        <!-- Table -->
+        <div class="table-responsive">
+            <table id="high-score-table" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Score</th>
+                        <th>Date/Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <ul class="list-inline pull-right text-right">
+            <li><a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-lg fa-fw"></i></a></li>
+            <li><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-lg fa-fw"></i></a></li>
+            <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o fa-lg fa-fw"></i></a></li>
+        </ul>
+        <p>Copyright &copy; {{ site.copyright.start }}-{{ site.time | date: '%Y' }} {{ site.copyright.holder }}</p>
+    </footer>
+</div> <!-- /container -->

@@ -1,30 +1,69 @@
-// @codekit-prepend "../../../bower_components/katan-js/min/katan+raphael.min.js", "island1_gameboard.js", "island1_legend.js", "island2_gameboard.js";
+// @codekit-prepend "../../../bower_components/raphael/raphael.js", "../../../bower_components/katan-js/katan.js", "island_legend.js", "island1_gameboard.js", "island2_gameboard.js";
 
 $(function() {
-    function calculateTotalScore() {
+    function calculateTotalScore(island) {
         // Calculate total score
         var totalScore = 0,
             count = 0;
-        var scores = $('.show-grid input');
-        scores.each(function (i) {
-            var score = 0;
-            if ($(this).val()) {
-                if ($(this).val() == '0') {
-                    score = -2;
-                } else {
-                    score = parseInt($(this).val());
-                }
-                count++;
-            }
-            totalScore += score;
-        });
-        $('#score_total').text(totalScore);
-        $('#score_total_nav').text(totalScore);
 
-        var status = (count > 12) ? 'danger' : ((count > 7) ? 'warning' : 'success');
-        var progressHTML = '<div class="progress-bar progress-bar-' + status + '" style="width:' +
-            6.67*count + '%;border-right: 1px solid #f5f5f5">' + totalScore + ' pts</div>';
-        $('#main .progress').html(progressHTML);
+        if (island.toLowerCase() == 'one') {
+            var scores = $('.show-grid input');
+            scores.each(function (i) {
+                var score = 0;
+                if ($(this).val()) {
+                    if ($(this).val() == '0') {
+                        score = -2;
+                    } else {
+                        score = parseInt($(this).val());
+                    }
+                    count++;
+                }
+                totalScore += score;
+            });
+            $('#score_total').text(totalScore);
+            createProgressBar(island, count, totalScore);
+
+        } else if (island.toLowerCase() == 'two') {
+            totalScore = $('.btn-checkbox.active').length;
+            createProgressBar(island, count, totalScore);
+        }
+    }
+
+    function createProgressBar(island, count, score) {
+        if (island.toLowerCase() == 'one') {
+            var psection = $('#progress-section-' + count);
+            var fsection = $('#progress-section-full');
+            var status = (count > 12) ? 'danger' : ((count > 7) ? 'warning' : 'success');
+            var suffix = (score == 1) ? ' pt' : ' pts';
+
+            if (psection && psection.length > 0) {
+                var percent = (count == 15) ? 100.0 : (6.67 * count);
+                var progressHTML = '<div id="progress-section-full" class="progress-bar progress-bar-' + status +
+                    '" style="width:' + percent + '%">' + score + suffix + '</div>';
+
+                psection.remove();
+                fsection.remove();
+                $('#main .progress').prepend(progressHTML);
+            } else if (fsection && fsection.length > 0) {
+                fsection.text(score + suffix);
+            }
+        } else if (island.toLowerCase() == 'two') {
+            for (var i = 1; i <= score; i++) {
+                var section = $('#progress-section-' + i);
+
+                if (section.hasClass('progress-bar-inactive')) {
+                    section.removeClass('progress-bar-inactive');
+                }
+            }
+
+            for (var j = 15; j > score; j--) {
+                var section = $('#progress-section-' + j);
+
+                if (!section.hasClass('progress-bar-inactive')) {
+                    section.addClass('progress-bar-inactive');
+                }
+            }
+        }
     }
 
     function setCellStyle(elem) {
@@ -67,18 +106,25 @@ $(function() {
     }
 
     // Calculate total after value is input
-    $('.show-grid input').bind('keyup change', function() {
-        calculateTotalScore();
+    $('.show-grid input').on('keyup change', function(ev) {
+        calculateTotalScore('one');
         setCellStyle($(this));
     });
 
-    $('#reset').bind('click', function(ev) {
+    // Calculate total after button click
+    // Bootstrap applies to default handler to the <body> tag so we need to grab it there...
+    $('body').on('click', '.btn-checkbox', function() {
+        $(this).toggleClass('active');
+        calculateTotalScore('two');
+    });
+
+    $('#reset').on('click', function(ev) {
         ev.preventDefault();
         $('#reset-modal').modal('show');
     });
 
     var rolls_left = 3;
-    $('#roll-dice').bind('click', function() {
+    $('#roll-dice').on('click', function() {
         if (rolls_left > 0) {
             var dice = $('.navbar-dice td');
             dice.each(function (i){
@@ -110,11 +156,7 @@ $(function() {
         $(this).children('.badge').text(rolls_left);
     });
 
-    $('#roll-dice').bind('dblclick', function() {
-        alert('reset');
-    });
-
-    $('.navbar-dice td').bind('click', function() {
+    $('.navbar-dice td').on('click', function() {
         $(this).toggleClass('hold');
         var resElem = $(this).children('i');
 
@@ -151,9 +193,20 @@ $(function() {
         show: false
     });
 
-    $('#reset-confirm').bind('click', function (e) {
-        console.log($(this));
-        e.preventDefault();
+    $('#reset-confirm').on('click', function (ev) {
+        ev.preventDefault();
         location.reload();
     });
+
+    // window.onload = calculateScreenSize;
+    // window.onresize = calculateScreenSize;
+
+    // function calculateScreenSize() {
+    //     var sW = screen.availWidth;
+    //     if (sW <= 320) {
+    //         c.setViewBox(0, 0, 375, 325, true);
+    //     } else {
+    //         c.setViewBox(0, 0, 325, 325, true);
+    //     }
+    // }
 });

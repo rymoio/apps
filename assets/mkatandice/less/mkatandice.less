@@ -61,6 +61,11 @@ body {
         background-color: @amethyst;
     }
 
+    .navbar-toggle {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
     .navbar-text-right {
         float: right;
         text-align: right;
@@ -140,13 +145,35 @@ body {
 #main {
     padding-top: 60px;
 
+    // Progress bar
     .progress {
         margin-bottom: 10px;
 
         .progress-bar {
             font-weight: bold;
         }
+
+        &.progress-experience-points > .progress-bar {
+            border-right: 1px solid #fff;
+        }
+
+        .progress-bar.progress-bar-inactive {
+            background-color: @clouds;
+            border-left: 1px solid @silver;
+            border-right: 1px solid #fff;
+            color: @silver;
+        }
+
+        div:first-of-type {
+            border-left: none !important;
+        }
+
+        div:last-of-type {
+            border-right: none !important;
+        }
     }
+
+
 }
 
 // Nav tabs
@@ -165,10 +192,15 @@ body {
     &.well-blue {
         background-color: @belize-hole;
     }
+
+    &.well-orange {
+        background-color: @carrot;
+    }
 }
 
 // Map
-#map-svg {
+#map-svg,
+#map2-svg {
     width: 100%;
     text-align: center;
 }
@@ -180,6 +212,20 @@ body {
     table {
         border-collapse: collapse;
         margin: 0 auto;
+
+        .scoreboard-one {
+
+        }
+
+        &.scoreboard-two {
+            tr td {
+                padding: 2px;
+            }
+        }
+
+        tr.row-placeholder {
+            height: 6px;
+        }
 
         tr td {
             width: 39px;
@@ -223,6 +269,23 @@ body {
             &.show-grid input.no-points {
                 color: @pomegranate;
             }
+
+            .btn {
+                i.fa-times {
+                    opacity: 0;
+                }
+                &.active i.fa-times {
+                    opacity: 1;
+                }
+                &.btn-block {
+                    text-align: left;
+                }
+                &.btn-block.active .fa:after {
+                    content: '\f00c';
+                    padding-left: 5px;
+                    color: @nephritis;
+                }
+            }
         }
     }
 
@@ -256,7 +319,10 @@ body {
     }
 }
 
-// Resources
+// Resource dice tiles
+.hold {
+    background-color: @silver !important;
+}
 .katan-brick {
     font-size: 30px;
     color: @pomegranate;

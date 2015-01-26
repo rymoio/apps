@@ -2,34 +2,74 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                {% comment %}
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
+                {% endcomment %}
+                <i class="fa fa-chevron-down"></i>
             </button>
             <a class="navbar-brand" href="/mkatandice">mKatan Dice</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        {% assign url = page.url|remove:'/index.html' %}
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
-                <li>
-                    <a href="/"><i class="fa fa-home fa-fw"></i> home</a>
-                </li>
-                <li>
-                    <a href="/mkatandice/rules">
-                        <i class="fa fa-book fa-fw"></i> rules <span class="navbar-unread"></span>
-                    </a>
-                </li>
-                <li class="dropdown">
+                {% if page.nav == "islandone" %}
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                        <i class="fa fa-map-marker fa-fw"></i> maps <span class="caret"></span>
+                        <i class="fa fa-map-marker fa-fw"></i> island one <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="/mkatandice/islandone">Island One</a></li>
-                        <li><a href="/mkatandice/islandtwo">Island Two</a></li>
+                        <li>
+                            <a href="/mkatandice/islandtwo"><i class="fa fa-map-marker fa-fw"></i> island two</a>
+                        </li>
                     </ul>
+                </li>
+                <li>
+                    <a href="/mkatandice/islandone"><i class="fa fa-plus fa-fw"></i> new game</a>
+                </li>
+                {% elsif page.nav == "islandtwo" %}
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <i class="fa fa-map-marker fa-fw"></i> island two <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li>
+                            <a href="/mkatandice/islandone"><i class="fa fa-map-marker fa-fw"></i> island one</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/mkatandice/islandtwo"><i class="fa fa-plus fa-fw"></i> new game</a>
+                </li>
+                {% else %}
+                <li class="{% if url == '/mkatandice/islandone' %}active{% endif %}">
+                    <a href="/mkatandice/islandone"><i class="fa fa-map-marker fa-fw"></i> island one</a>
+                </li>
+                <li class="{% if url == '/mkatandice/islandtwo' %}active{% endif %}">
+                    <a href="/mkatandice/islandtwo"><i class="fa fa-map-marker fa-fw"></i> island two</a>
+                </li>
+                {% endif %}
+
+                <li class="{% if url == '/mkatandice/rules' %}active{% endif %}">
+                    <a href="/mkatandice/rules">
+                        <i class="fa fa-book fa-fw"></i> rules</span>
+                    </a>
+                </li>
+                <li class="{% if url == '/mkatandice/highscores' %}active{% endif %}">
+                    <a href="/mkatandice/highscores">
+                        <i class="fa fa-trophy fa-fw"></i> high scores
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" class="divider"></li>
+                <li>
+                    <a href="/"><i class="fa fa-home fa-fw"></i> back home</a>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->

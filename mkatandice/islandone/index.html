@@ -1,22 +1,9 @@
 ---
 layout: mkatandice/default
-title: mKatan Dice - Island One
+title: mKatan Dice - island one
+nav: islandone
 ---
-<!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="../">mKatan Dice</a>
-            <p class="navbar-text navbar-text-center"><a id="reset" class="navbar-link" href="#">SCORE <span id="score_total_nav" class="badge">0</span></a></p>
-        </div>
-    </div>
-</nav>
+<!-- Fixed second navbar -->
 <nav id="dice-rack" class="navbar navbar-default navbar-lower" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -39,7 +26,25 @@ title: mKatan Dice - Island One
 </nav>
 
 <div id="main" class="container">
-    <div class="progress"></div>
+    <!-- START PROGRESS BAR -->
+    <div class="progress">
+        <div id="progress-section-1" class="progress-bar progress-bar-inactive" style="width: 6.66%;">1</div>
+        <div id="progress-section-2" class="progress-bar progress-bar-inactive" style="width: 6.66%;">2</div>
+        <div id="progress-section-3" class="progress-bar progress-bar-inactive" style="width: 6.66%;">3</div>
+        <div id="progress-section-4" class="progress-bar progress-bar-inactive" style="width: 6.66%;">4</div>
+        <div id="progress-section-5" class="progress-bar progress-bar-inactive" style="width: 6.66%;">5</div>
+        <div id="progress-section-6" class="progress-bar progress-bar-inactive" style="width: 6.66%;">6</div>
+        <div id="progress-section-7" class="progress-bar progress-bar-inactive" style="width: 6.66%;">7</div>
+        <div id="progress-section-8" class="progress-bar progress-bar-inactive" style="width: 6.66%;">8</div>
+        <div id="progress-section-9" class="progress-bar progress-bar-inactive" style="width: 6.66%;">9</div>
+        <div id="progress-section-10" class="progress-bar progress-bar-inactive" style="width: 6.66%;">10</div>
+        <div id="progress-section-11" class="progress-bar progress-bar-inactive" style="width: 6.66%;">11</div>
+        <div id="progress-section-12" class="progress-bar progress-bar-inactive" style="width: 6.66%;">12</div>
+        <div id="progress-section-13" class="progress-bar progress-bar-inactive" style="width: 6.66%;">13</div>
+        <div id="progress-section-14" class="progress-bar progress-bar-inactive" style="width: 6.66%;">14</div>
+        <div id="progress-section-15" class="progress-bar progress-bar-inactive" style="width: 6.67%;">15</div>
+    </div>
+    <!-- END PROGRESS BAR -->
     <!-- START TAB PANES -->
     <div role="tabpanel">
         <!-- Nav tabs -->
@@ -74,7 +79,7 @@ title: mKatan Dice - Island One
                 <div class="row">
                     <div class="col-md-12">
                         <div id="scoreboard" class="well well-green">
-                            <table>
+                            <table class="scoreboard-one">
                                 <tr>
                                     <td class="show-grid"><input type="number" maxlength="3" tabindex="1"></td>
                                     <td class="show-grid"><input type="number" maxlength="3" tabindex="2"></td>
@@ -97,7 +102,7 @@ title: mKatan Dice - Island One
                                     <td class="show-grid"><input type="number" maxlength="3" tabindex="7"></td>
                                 </tr>
                                 <tr>
-                                    <td class="show-grid"><input type="number" maxlength="3" tabindex="12" tabindex="1"></td>
+                                    <td class="show-grid"><input type="number" maxlength="3" tabindex="12"></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>

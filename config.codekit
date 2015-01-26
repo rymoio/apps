@@ -92,6 +92,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/apple-touch-icon-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2494,
+		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/css\/style.min.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -232,13 +243,46 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/mkatandice\/img\/mkatandice-island1.png": {
+	"\/assets\/mkatandice\/img\/mkatandice_iphone_half.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 44450,
-		"inputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice-island1.png",
-		"outputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice-island1.png",
+		"initialSize": 1.89676e+06,
+		"inputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_half.png",
+		"outputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_half.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/mkatandice\/img\/mkatandice_iphone_half_trans.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.05594e+06,
+		"inputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_half_trans.png",
+		"outputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_half_trans.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/mkatandice\/img\/mkatandice_iphone_whole.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.35473e+06,
+		"inputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_whole.png",
+		"outputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_whole.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/mkatandice\/img\/mkatandice_iphone_whole_trans.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.6172e+06,
+		"inputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_whole_trans.png",
+		"outputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_whole_trans.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -254,23 +298,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
-	"\/assets\/mkatandice\/js\/island1_legend.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/mkatandice\/js\/island1_legend.js",
-		"outputAbbreviatedPath": "\/assets\/mkatandice\/js\/min\/island1_legend.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
-		},
 	"\/assets\/mkatandice\/js\/island2_gameboard.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/mkatandice\/js\/island2_gameboard.js",
 		"outputAbbreviatedPath": "\/assets\/mkatandice\/js\/min\/island2_gameboard.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
+	"\/assets\/mkatandice\/js\/island_legend.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/mkatandice\/js\/island_legend.js",
+		"outputAbbreviatedPath": "\/assets\/mkatandice\/js\/min\/island_legend.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -295,8 +339,8 @@
 		"outputAbbreviatedPath": "\/assets\/mkatandice\/js\/min\/mkatandice.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
 		},
 	"\/assets\/mkatandice\/less\/mkatandice.less": {
 		"allowInsecureImports": 0,
@@ -6392,7 +6436,7 @@
 		},
 	"\/bower_components\/katan-js\/katan.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/katan-js\/katan.js",
 		"outputAbbreviatedPath": "\/bower_components\/katan-js\/min\/katan.min.js",
@@ -6403,7 +6447,7 @@
 		},
 	"\/bower_components\/katan-js\/min\/katan+raphael.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/katan-js\/min\/katan+raphael.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/katan-js\/min\/min\/katan+raphael.min.min.js",
@@ -8656,6 +8700,61 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/bower_components\/raphael\/dev\/amdDev.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/raphael\/dev\/amdDev.js",
+		"outputAbbreviatedPath": "\/bower_components\/raphael\/dev\/min\/amdDev.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
+	"\/bower_components\/raphael\/dev\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/raphael\/dev\/index.js",
+		"outputAbbreviatedPath": "\/bower_components\/raphael\/dev\/min\/index.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
+	"\/bower_components\/raphael\/dev\/require.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/raphael\/dev\/require.js",
+		"outputAbbreviatedPath": "\/bower_components\/raphael\/dev\/min\/require.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
+	"\/bower_components\/raphael\/raphael-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/raphael\/raphael-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/raphael\/min\/raphael-min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
+	"\/bower_components\/raphael\/raphael.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/raphael\/raphael.js",
+		"outputAbbreviatedPath": "\/bower_components\/raphael\/min\/raphael.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
 	"\/bower_components\/store.js\/build.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -10037,11 +10136,64 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
+	"\/bower_components\/zeroclipboard\/dist\/ZeroClipboard.Core.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/zeroclipboard\/dist\/ZeroClipboard.Core.js",
+		"outputAbbreviatedPath": "\/bower_components\/zeroclipboard\/dist\/min\/ZeroClipboard.Core.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
+	"\/bower_components\/zeroclipboard\/dist\/ZeroClipboard.Core.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/zeroclipboard\/dist\/ZeroClipboard.Core.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/zeroclipboard\/dist\/min\/ZeroClipboard.Core.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
+	"\/bower_components\/zeroclipboard\/dist\/ZeroClipboard.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/zeroclipboard\/dist\/ZeroClipboard.js",
+		"outputAbbreviatedPath": "\/bower_components\/zeroclipboard\/dist\/min\/ZeroClipboard.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
+	"\/bower_components\/zeroclipboard\/dist\/ZeroClipboard.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/zeroclipboard\/dist\/ZeroClipboard.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/zeroclipboard\/dist\/min\/ZeroClipboard.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/mkatandice\/highscores\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mkatandice\/highscores\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10093,6 +10245,17 @@
 		"outputAbbreviatedPath": "\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/touch-icon-192x192.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6526,
+		"inputAbbreviatedPath": "\/touch-icon-192x192.png",
+		"outputAbbreviatedPath": "\/touch-icon-192x192.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [

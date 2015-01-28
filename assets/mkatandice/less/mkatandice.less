@@ -3,60 +3,161 @@
  */
 
 // Katan resources
-@import (inline) "../../../bower_components/katan-js/katan.css";
+@import (inline) "../../../bower_components/katan-js/css/katan.css";
 // Flaticon
 @import (inline) "../css/flaticon.css";
+// Custom Boostrap variables
+@import "../../less/variable_overrides.less";
 
 /**
  * PUT CUSTOM STYLES HERE
  */
 
 // Katan
-@font-face {
-    font-family: "Katan";
-    src: url('../fonts/Katan.eot?') format('eot'), url('../fonts/Katan.woff') format('woff'), url('../fonts/Katan.ttf') format('truetype'), url('../fonts/Katan.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-// Color swatches
-@turquoise:                 #1abc9c;
-@green-sea:                 #16a085;
-
-@emerald:                   #2ecc71;
-@nephritis:                 #27ae60;
-
-@peter-river:               #3498db;
-@belize-hole:               #2980b9;
-
-@amethyst:                  #9b59b6;
-@wisteria:                  #8e44ad;
-
-@wet-asphalt:               #34495e;
-@midnight-blue:             #2c3e50;
-
-@sun-flower:                #f1c40f;
-@orange:                    #f39c12;
-
-@carrot:                    #e67e22;
-@pumpkin:                   #d35400;
-
-@alizarin:                  #e74c3c;
-@pomegranate:               #c0392b;
-
-@clouds:                    #ecf0f1;
-@silver:                    #bdc3c7;
-
-@concrete:                  #95a5a6;
-@asbestos:                  #7f8c8d;
+// @font-face {
+//     font-family: "Katan";
+//     src: url('../fonts/Katan.eot?') format('eot'), url('../fonts/Katan.woff') format('woff'), url('../fonts/Katan.ttf') format('truetype'), url('../fonts/Katan.svg') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
 
 body {
     min-height: 600px;
     padding-top: 50px;
 }
 
+body, p, .btn-default {
+    color: @midnight-blue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    &small {
+        color: @asbestos;
+    }
+}
+
+blockquote,
+blockquote.blockquote-reverse {
+    border-color: @turquoise;
+}
+
+.jumbotron-custom {
+    margin-bottom: 0;
+    background-color: @silver-a;
+}
+
+.row-custom {
+    background-color: @silver-a;
+}
+.row-quote {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+hr.dark {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: @midnight-blue-a;
+
+    &.extra {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+.no-pad-h {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.side-content {
+    padding: 50px 30px;
+}
+
+.fancy {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.bg-image {
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+
+    img {
+        display: block;
+        width: 100%;
+        max-width: 1200px; /* corresponds to max height of 450px */
+        margin: 0 auto;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        color: @clouds;
+    }
+}
+
+// Modal score
+// --------------------------------------------------
+.table-centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+#modal-form-score {
+    margin: 0 auto;
+    text-align: center;
+
+    span {
+        cursor: pointer;
+    }
+}
+
+#modal-current-roll {
+    background-color: @concrete;
+    border-color: @asbestos;
+}
+
+#modal-input-score {
+    text-align: center;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
 // Navbar
+// --------------------------------------------------
+
 .navbar {
+    // Default navbar
+    &.navbar-default {
+        color: @asbestos;
+        background-color: @clouds;
+        border-color: @concrete;
+    }
+    .navbar-brand,
+    .navbar-nav > li > a {
+        color: @asbestos;
+    }
+    .navbar-nav > li > a:hover,
+    .navbar-nav > li > a:active {
+        color: @midnight-blue;
+    }
+
+    // Undo rounded corners in static and fixed navbars
+    &.navbar-static-top,
+    &.navbar-fixed-top,
+    &.navbar-fixed-bottom {
+      border-radius: 0;
+    }
+
     .badge {
         background-color: @amethyst;
     }
@@ -106,44 +207,50 @@ body {
             font-size: 14px;
             vertical-align: top;
         }
+    }
+}
 
-        table.navbar-dice {
-            border-collapse: separate;
-            border-spacing: 5px;
-            float: right;
-            padding-right: 5px;
-            padding-top: 2px;
+// Custom dice presentation
+table.navbar-dice {
+    border-collapse: separate;
+    border-spacing: 5px;
+    // float: right;
+    padding-right: 5px;
+    padding-top: 2px;
 
-            td {
-                background: @clouds;
-                border-radius: 5px;
-                width: 36px;
-                height: 36px;
-                text-align: center;
-                cursor: pointer;
-                -webkit-touch-callout: none !important;
+    td {
+        background: @clouds;
+        border-radius: 5px;
+        width: 36px;
+        height: 36px;
+        text-align: center;
+        cursor: pointer;
+        -webkit-touch-callout: none !important;
 
-                i {
-                    font-size: 24px;
-                }
-            }
+        i {
+            font-size: 24px;
         }
+    }
+}
 
-        @media (max-width: 768px) {
-            table.navbar-dice td {
-                width: 30px;
-                height: 30px;
-            }
-            table.navbar-dice td i {
-                font-size: 20px;
-            }
-        }
+@media (max-width: 768px) {
+    table.navbar-dice td {
+        width: 30px;
+        height: 30px;
+    }
+    table.navbar-dice td i {
+        font-size: 20px;
     }
 }
 
 // Main
 #main {
     padding-top: 60px;
+
+    #turns-remaining {
+        font-size: 100%;
+        vertical-align: text-top;
+    }
 
     // Progress bar
     .progress {
@@ -199,8 +306,8 @@ body {
 }
 
 // Map
-#map-svg,
-#map2-svg {
+#islandone-svg,
+#islandtwo-svg {
     width: 100%;
     text-align: center;
 }

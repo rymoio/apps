@@ -31,15 +31,5 @@
   ],
   "dependencies": {
     "raphael": ">= 2.1.1"
-  },
-  "_release": "1.1.0",
-  "_resolution": {
-    "type": "version",
-    "tag": "v1.1.0",
-    "commit": "dd405a81ade7c3ba5a1ad22f9b610a7832b20239"
-  },
-  "_source": "git://github.com/rymoio/katan-js.git",
-  "_target": "~1.1.0",
-  "_originalSource": "katan-js",
-  "_direct": true
+  }
 }

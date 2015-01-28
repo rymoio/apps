@@ -4,7 +4,7 @@
  *        .-^^^-/ /
  *     __/       /
  *    <__.|_|-|_|   katan-js
- *                  version : 1.0.0
+ *                  version : 1.1.0
  *                  author  : Ryan Morrissey
  *                  license : MIT
  *                  website : https://rymo.io/
@@ -24,7 +24,7 @@
         settlement,
         city,
 
-        VERSION = '1.0.0',
+        VERSION = '1.1.0',
 
         hasOwnProperty = Object.prototype.hasOwnProperty,
         parseInt = window.parseInt,
@@ -38,8 +38,21 @@
             'wool'   : '\ue004',
             'lumber' : '\ue005',
             'grain'  : '\ue006',
-            'desert' : '\u003F',
-            ''       : ''
+            'desert' : '\u003F'
+        },
+
+        // token information
+        tokenPips = {
+            2  : '\u25CF',                          // ●
+            3  : '\u25CF\u25CF',                    // ●●
+            4  : '\u25CF\u25CF\u25CF',              // ●●●
+            5  : '\u25CF\u25CF\u25CF\u25CF',        // ●●●●
+            6  : '\u25CF\u25CF\u25CF\u25CF\u25CF',  // ●●●●●
+            8  : '\u25CF\u25CF\u25CF\u25CF\u25CF',  // ●●●●●
+            9  : '\u25CF\u25CF\u25CF\u25CF',        // ●●●●
+            10 : '\u25CF\u25CF\u25CF',              // ●●●
+            11 : '\u25CF\u25CF',                    // ●●
+            12 : '\u25CF'                           // ●
         },
 
         // color information
@@ -103,21 +116,49 @@
     /**
      * Katan prototype object
      *
-     * @param {Str} a DOM element id string
-     * @param {Int} cx coordinate for transform
-     * @param {Int} cy coordinate for transform
+     * @param {Object} a Raphael.Paper object
+     * @param {Str} (Optional) a string value to override the defaul preserveAspectRatio attr
+     * @param {Object} (Optional) an object to set the viewbox (used for zooming the canvas)
      */
-    function Katan(id, width, height) {
+    function Katan(paper, viewbox, aspect) {
         var _isAKatanObject = true,
-            paper = Raphael(id, width, height);
-        paper.canvas.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+            p = paper,
+            v = (viewbox || {}),
+            a = (aspect || 'xMinYMin meet');
 
-        getId = function () {
-            return id;
+        if (!paper instanceof Raphael._Paper) {
+            printMsg('error', 'You must pass a valid Raphael paper object!');
+            return;
         }
 
+        p.canvas.setAttribute('preserveAspectRatio', a);
+
+        if (v && Object.keys(v).length > 0) {
+            try {
+                p.setViewBox(
+                    (v.x || 0),
+                    (v.y || 0),
+                    v.w,
+                    v.h,
+                    (v.fit || true)
+                );
+            } catch (e) {
+                printMsg('error', 'Your viewbox keys caused an error: ' + e);
+            }
+        }
+
+        getId = function () {
+            return p.canvas.parentElement.id;
+        }
+
+        // DEPRECATED in 2.0.0
         getCanvas = function () {
-            return paper;
+            printMsg('warn', 'This method has been deprecated in favor of Katan().getPaper()');
+            return p;
+        }
+
+        getPaper = function () {
+            return p;
         }
     }
 
@@ -140,13 +181,13 @@
             strokeWidth            : 0,
 
             innerCircle            : false,
+            innerCircleText        : '',
             innerCircleFill        : flatUIColors.clouds,
             innerCircleStroke      : 'none',
             innerCircleStrokeWidth : 0,
             textFill               : flatUIColors.belizehole,
             fontSize               : 18,
             fontWeight             : 400,
-            resourceIcon           : '',
 
             state                  : false,
             stateFill              : flatUIColors.amethyst,
@@ -191,16 +232,34 @@
                 })
             );
 
-            var _t = (fontUnicode[options.resourceIcon]) ? fontUnicode[options.resourceIcon] : '';
+            var _t;
+            if (fontUnicode[options.innerCircleText] !== undefined) {
+                _t = fontUnicode[options.innerCircleText];
 
-            inner.push(
-                canvas.text(60, 52, _t).attr({
-                    'fill'        : options.textFill,
-                    'font-size'   : options.fontSize,
-                    'font-family' : fontFamily,
-                    'font-weight' : options.fontWeight
-                })
-            );
+                inner.push(
+                    canvas.text(60, 52, _t).attr({
+                        'fill'        : options.textFill,
+                        'font-size'   : options.fontSize,
+                        'font-family' : fontFamily,
+                        'font-weight' : options.fontWeight
+                    })
+                );
+            } else if (parseInt(options.innerCircleText) !== 'NaN') {
+                _t = parseInt(options.innerCircleText);
+
+                inner.push(
+                    canvas.text(60, 50, _t).attr({
+                        'fill'        : options.textFill,
+                        'font-size'   : options.fontSize,
+                        'font-weight' : options.fontWeight
+                    }),
+                    canvas.text(60, 60, tokenPips[_t]).attr({
+                        'fill'        : options.textFill,
+                        'font-size'   : Math.floor(options.fontSize*0.45)
+                    })
+                );
+            }
+
             tile.push(inner);
         }
 
@@ -233,6 +292,10 @@
         }
 
         tile.transform('T' + options.cx + ',' + options.cy + rotate + scale);
+
+        getSet = function () {
+            return tile;
+        }
     }
 
     /**
@@ -334,6 +397,10 @@
         }
 
         road.transform('T' + options.cx + ',' + options.cy + rotate + scale);
+
+        getSet = function () {
+            return road;
+        }
     }
 
     /**
@@ -427,6 +494,10 @@
         }
 
         knight.transform('T' + options.cx + ',' + options.cy + rotate + scale);
+
+        getSet = function () {
+            return knight;
+        }
     }
 
     /**
@@ -522,6 +593,10 @@
         }
 
         settlement.transform('T' + options.cx + ',' + options.cy + rotate + scale);
+
+        getSet = function () {
+            return settlement;
+        }
     }
 
     /**
@@ -617,6 +692,10 @@
         }
 
         city.transform('T' + options.cx + ',' + options.cy + rotate + scale);
+
+        getSet = function () {
+            return city;
+        }
     }
 
     // ******************** //
@@ -704,15 +783,20 @@
     //    TOP LEVEL FUNCTIONS    //
     // ************************* //
 
-    katan = function (id, width, height) {
-        return new Katan(id, width, height);
+    katan = function (paper, viewbox, aspect) {
+        return new Katan(paper, viewbox, aspect);
     };
 
     // version number
     katan.version = VERSION;
 
+    katan.setFontFamily = function (font_override) {
+        this.fontFamily = font_override;
+        return this.fontFamily;
+    }
+
     // expose default colors for customization
-    katan.getColors = function() {
+    katan.getColors = function () {
         return flatUIColors;
     }
 
@@ -758,6 +842,10 @@
 
         getCanvas : function () {
             return getCanvas();
+        },
+
+        getPaper : function () {
+            return getPaper();
         }
     });
 
@@ -770,6 +858,10 @@
     extend(hextile.fn = HexTile.prototype, {
         getOptions : function () {
             return getOptions();
+        },
+
+        getSet : function () {
+            return getSet();
         }
     });
 
@@ -782,6 +874,10 @@
     extend(road.fn = Road.prototype, {
         getOptions : function () {
             return getOptions();
+        },
+
+        getSet : function () {
+            return getSet();
         }
     });
 
@@ -794,6 +890,10 @@
     extend(knight.fn = Knight.prototype, {
         getOptions : function () {
             return getOptions();
+        },
+
+        getSet : function () {
+            return getSet();
         }
     });
 
@@ -806,6 +906,10 @@
     extend(settlement.fn = Settlement.prototype, {
         getOptions : function () {
             return getOptions();
+        },
+
+        getSet : function () {
+            return getSet();
         }
     });
 
@@ -818,6 +922,10 @@
     extend(city.fn = City.prototype, {
         getOptions : function () {
             return getOptions();
+        },
+
+        getSet : function () {
+            return getSet();
         }
     });
 

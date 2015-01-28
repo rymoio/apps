@@ -2,7 +2,7 @@
 
 body {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 // Custom elements
@@ -44,4 +44,27 @@ body {
 // OfflineUI
 .offline-ui {
     background-color: rgba(246, 246, 246, 0.5);
+}
+
+.scrollToTop {
+    bottom: 15px;
+    right: 12px;
+    position: fixed;
+    color: @sun-flower;
+    display: none;
+
+    .h4 {
+        vertical-align: super;
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: @orange;
+    }
+
+    &:visited,
+    &:active {
+        color: @sun-flower;
+    }
 }

@@ -31,22 +31,19 @@ $(function() {
 
     function createProgressBar(island, count, score) {
         if (island.toLowerCase() == 'one') {
-            var psection = $('#progress-section-' + count);
             var fsection = $('#progress-section-full');
+            if (fsection && fsection.length > 0) fsection.remove();
+
             var status = (count > 12) ? 'danger' : ((count > 7) ? 'warning' : 'success');
             var suffix = (score == 1) ? ' pt' : ' pts';
+            var percent = (count == 15) ? 100.0 : (6.67 * count);
+            var progressHTML = '<div id="progress-section-full" class="progress-bar progress-bar-' + status +
+                '" style="min-width:3em;width:' + percent + '%">' + score + suffix + '</div>';
+            $('#main .progress').prepend(progressHTML);
 
-            if (psection && psection.length > 0) {
-                var percent = (count == 15) ? 100.0 : (6.67 * count);
-                var progressHTML = '<div id="progress-section-full" class="progress-bar progress-bar-' + status +
-                    '" style="width:' + percent + '%">' + score + suffix + '</div>';
+            $('#turns-remaining').text(15 - parseInt(count));
+            if (count == 15) $('#turns-remaining').removeClass('label-info').addClass('label-danger');
 
-                psection.remove();
-                fsection.remove();
-                $('#main .progress').prepend(progressHTML);
-            } else if (fsection && fsection.length > 0) {
-                fsection.text(score + suffix);
-            }
         } else if (island.toLowerCase() == 'two') {
             for (var i = 1; i <= score; i++) {
                 var section = $('#progress-section-' + i);
@@ -105,6 +102,14 @@ $(function() {
         $('.navbar-dice td i').remove();
     }
 
+    function setHighScore() {
+        return;
+    }
+
+    function getHighScores() {
+        return;
+    }
+
     // Calculate total after value is input
     $('.show-grid input').on('keyup change', function(ev) {
         calculateTotalScore('one');
@@ -116,11 +121,6 @@ $(function() {
     $('body').on('click', '.btn-checkbox', function() {
         $(this).toggleClass('active');
         calculateTotalScore('two');
-    });
-
-    $('#reset').on('click', function(ev) {
-        ev.preventDefault();
-        $('#reset-modal').modal('show');
     });
 
     var rolls_left = 3;
@@ -144,15 +144,19 @@ $(function() {
 
             rolls_left = rolls_left - 1;
         } else {
-            rolls_left = 3;
-            clearDiceRack();
+            $('#score-modal').modal('show');
+            $('#score-modal').on('hidden.bs.modal', function (e) {
+                rolls_left = 3;
+                clearDiceRack();
+            });
         }
 
-        var counter = $(this).children('#rolls_left_nav');
-        counter.addClass('animated wobble');
-        counter.delay(1500).queue(function() {
-            counter.removeClass('animated wobble').dequeue();
-        });
+        // update rolls left
+        // var counter = $(this).children('#rolls_left_nav');
+        // counter.addClass('animated wobble');
+        // counter.delay(1500).queue(function() {
+        //     counter.removeClass('animated wobble').dequeue();
+        // });
         $(this).children('.badge').text(rolls_left);
     });
 
@@ -185,28 +189,65 @@ $(function() {
         }
     });
 
+    // control tab content
     $('#myTab a[href="#map-nav"]').tab('show');
     $('#myTab a[href="#scoreboard-nav"]').tab('show');
     $('#myTab a[href="#legend-nav"]').tab('show');
 
-    $('#reset-modal').modal({
-        show: false
-    });
-
-    $('#reset-confirm').on('click', function (ev) {
+    /**
+     * MODAL CONTROLS
+     */
+    $('#reset').on('click', function(ev) {
         ev.preventDefault();
-        location.reload();
+        $('#reset-modal').modal('show');
     });
 
-    // window.onload = calculateScreenSize;
-    // window.onresize = calculateScreenSize;
+    $('#score-modal').on('show.bs.modal', function (e) {
+        var currentRoll = $('#navbar-dice-roll').clone().removeClass('pull-right').addClass('table-centered');
+        $('#modal-current-roll').empty().append(currentRoll);
+    });
 
-    // function calculateScreenSize() {
-    //     var sW = screen.availWidth;
-    //     if (sW <= 320) {
-    //         c.setViewBox(0, 0, 375, 325, true);
-    //     } else {
-    //         c.setViewBox(0, 0, 325, 325, true);
-    //     }
-    // }
+    $('#modal-input-inc').click(function () {
+        var curScore = $('#modal-input-score').val();
+        var curScoreInt = (curScore) ? parseInt(curScore) : 0;
+        curScoreInt++;
+        $('#modal-input-score').val(curScoreInt);
+    });
+
+    $('#modal-input-dec').click(function () {
+        var curScore = $('#modal-input-score').val();
+        var curScoreInt = (curScore) ? parseInt(curScore) : 0;
+        curScoreInt--;
+        $('#modal-input-score').val(curScoreInt);
+    });
+
+    $('#score-add').click(function (ev) {
+        ev.preventDefault();
+
+        var curScore = $('#modal-input-score').val();
+        var curScoreInt = (curScore) ? parseInt(curScore) : 0;
+        var hasScoreLen = $('.show-grid input').filter(function() {
+            return this.value;
+        }).length;
+        var tabIndex = parseInt(hasScoreLen) + 1;
+
+        $('.show-grid input[tabindex=' + tabIndex + ']').focus().val(curScoreInt).change();
+
+        $('#score-modal').modal('hide');
+        $('#modal-input-score').val('');
+    });
+
+    // attempt to resize the map for smaller screens...
+    window.onload = calculateScreenSize;
+    window.onresize = calculateScreenSize;
+
+    function calculateScreenSize() {
+        // if (c) c.canvas.setAttribute('preserveAspectRatio', 'xMinYMin meet');
+        // var sW = screen.availWidth;
+        // if (sW <= 320) {
+        //     c.setViewBox(0, 0, 375, 325, true);
+        // } else {
+        //     c.setViewBox(0, 0, 325, 325, true);
+        // }
+    }
 });

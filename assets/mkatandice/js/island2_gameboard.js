@@ -6,8 +6,9 @@ try {
      * *************************************************** */
 
     // Initiate a new Raphael canvas
-    var k = new Katan('map2-svg', 325, 335);
-    var c = k.getCanvas();
+    var p = new Raphael('islandtwo-svg', 325, 335);
+    var k = new Katan(p);
+    var c = k.getPaper();
     var colors = Katan.getColors();
 
     /* ***************************************************
@@ -22,7 +23,7 @@ try {
         fill         : colors.wetasphalt,
         innerCircle  : true,
         textFill     : colors.wetasphalt,
-        resourceIcon : 'ore',
+        innerCircleText : 'ore',
         state        : true,
         stateFill    : colors.wetasphalt,
     });
@@ -32,7 +33,7 @@ try {
         fill         : colors.sunflower,
         innerCircle  : true,
         textFill     : colors.sunflower,
-        resourceIcon : 'grain',
+        innerCircleText : 'grain',
         state        : true,
         stateFill    : colors.sunflower,
     });
@@ -42,7 +43,7 @@ try {
         fill         : colors.turquoise,
         innerCircle  : true,
         textFill     : colors.turquoise,
-        resourceIcon : 'wool',
+        innerCircleText : 'wool',
         state        : true,
         stateFill    : colors.turquoise,
     });
@@ -52,7 +53,7 @@ try {
         fill         : colors.nephritis,
         innerCircle  : true,
         textFill     : colors.nephritis,
-        resourceIcon : 'lumber',
+        innerCircleText : 'lumber',
         state        : true,
         stateFill    : colors.nephritis,
     });
@@ -62,7 +63,7 @@ try {
         fill         : colors.alizarin,
         innerCircle  : true,
         textFill     : colors.alizarin,
-        resourceIcon : 'brick',
+        innerCircleText : 'brick',
         state        : true,
         stateFill    : colors.alizarin,
     });
@@ -72,8 +73,8 @@ try {
         fill         : colors.concrete,
         innerCircle  : true,
         textFill     : colors.concrete,
-        resourceIcon : 'desert',
-        state        : false
+        innerCircleText : 'desert',
+        state        : true
     });
     var desertTile2 = new Katan.HexTile(c, {
         cx           : 90,
@@ -81,8 +82,8 @@ try {
         fill         : colors.concrete,
         innerCircle  : true,
         textFill     : colors.concrete,
-        resourceIcon : 'desert',
-        state        : false
+        innerCircleText : 'desert',
+        state        : true
     });
 
     /* ***************************************************

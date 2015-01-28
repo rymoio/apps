@@ -7,17 +7,21 @@ try {
 
     // Initiate a new Raphael canvas
     var colors = Katan.getColors();
-    var kr = new Katan('legend-road', 50, 45);
-    var cr = kr.getCanvas();
+    var pr = new Raphael('legend-road', 50, 45);
+    var kr = new Katan(pr);
+    var cr = kr.getPaper();
 
-    var kk = new Katan('legend-knight', 50, 45);
-    var ck = kk.getCanvas();
+    var pk = new Raphael('legend-knight', 50, 45);
+    var kk = new Katan(pk);
+    var ck = kk.getPaper();
 
-    var ks = new Katan('legend-settlement', 50, 45);
-    var cs = ks.getCanvas();
+    var ps = new Raphael('legend-settlement', 50, 45);
+    var ks = new Katan(ps);
+    var cs = ks.getPaper();
 
-    var kc = new Katan('legend-city', 50, 45);
-    var cc = kc.getCanvas();
+    var pc = new Raphael('legend-city', 50, 45);
+    var kc = new Katan(pc);
+    var cc = kc.getPaper();
 
     /* ***************************************************
      *
@@ -45,7 +49,7 @@ try {
     var legendSettle = new Katan.Settlement(cs, {
         cx: 17,
         cy: 12,
-        text: (window.location.pathname == '/mkatandice/islandtwo/') ? '1' : '',
+        text: '1',
         state: false
     });
     cs.canvas.getElementsByTagName('text')[0].y.baseVal[0].value = 4;
@@ -54,7 +58,7 @@ try {
     var legendCity = new Katan.City(cc, {
         cx: 12,
         cy: 12,
-        text: (window.location.pathname == '/mkatandice/islandtwo/') ? '2' : '',
+        text: '2',
         state: false
     });
     cc.canvas.getElementsByTagName('text')[0].y.baseVal[0].value = 3;
@@ -62,7 +66,7 @@ try {
     // Wildcard
     if ($('#legend-wildcard').length > 0) {
         var paperWildcard = Raphael('legend-wildcard', 50, 45);
-        paperWildcard.canvas.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+        paperWildcard.canvas.setAttribute('preserveAspectRatio', 'xMinYMin meet');
 
         var legendWild = paperWildcard.set(
             paperWildcard.circle(25, 25, 15)

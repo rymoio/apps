@@ -11,7 +11,7 @@ nav: islandtwo
                 <i class="flaticon-dice"></i> <span id="rolls_left_nav" class="badge">3</span>
             </a>
 
-            <table class="navbar-dice">
+            <table id="navbar-dice-roll" class="navbar-dice pull-right">
                 <tr>
                     <td></td>
                     <td></td>
@@ -62,7 +62,7 @@ nav: islandtwo
                 <div class="row">
                     <div class="col-md-12">
                         <div id="map" class="well well-sm well-blue">
-                            <div id="map2-svg"></div>
+                            <div id="islandtwo-svg"></div>
                         </div>
                     </div>
                 </div>
@@ -238,23 +238,40 @@ nav: islandtwo
     <!-- END TAB PANES -->
 
     <!-- START MODAL -->
-    <div class="modal fade" id="reset-modal">
-        <div class="modal-dialog modal-sm">
+    <div class="modal fade" id="score-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Reset Game</h4>
+                    <h4 class="modal-title">Current Turn Score</h4>
                 </div>
                 <div class="modal-body">
-                    <blockquote>
-                        <p>Measure Twice, Cut Once.</p>
-                        <footer>English Proverb</footer>
-                    </blockquote>
-                    <p>Are you sure you want to reset the game? All game pieces, dice and scores will be removed?</p>
+                    <h2 class="text-center">Dice Rack</h2>
+
+                    <div class="row">
+                        <div id="modal-current-roll" class="col-md-12"></div>
+                    </div>
+
+                    <hr class="dark">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form id="modal-form-score" class="form-inline">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span id="modal-input-dec" class="input-group-addon"><i class="fa fa-minus fa-fw"></i></span>
+                                        <input id="modal-input-score" type="number" class="form-control" placeholder="0">
+                                        <span id="modal-input-inc" class="input-group-addon"><i class="fa fa-plus fa-fw"></i></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-danger" id="reset-confirm">Reset</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" id="score-add"><i class="fa fa-pencil-square-o"></i> Record Score</button>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->

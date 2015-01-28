@@ -4,16 +4,48 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"has",
+				"hasClass〔function〕"
+			],
+			[
+				"toggle",
+				"toggleClass〔function〕"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"mkata",
+				"mkatandice"
+			],
+			[
+				"chil",
+				"children〔function〕"
+			],
+			[
 				"fun",
 				"function"
 			],
 			[
 				"text-",
 				"text-align"
-			],
-			[
-				"padd",
-				"padding-left"
 			],
 			[
 				"child",
@@ -28,10 +60,6 @@
 				"toggleClass  (function)"
 			],
 			[
-				"has",
-				"hasClass  (function)"
-			],
-			[
 				"ba",
 				"background"
 			],
@@ -42,10 +70,6 @@
 			[
 				"bak",
 				"background-color"
-			],
-			[
-				"border",
-				"border-collapse"
 			],
 			[
 				"total",
@@ -134,14 +158,6 @@
 			[
 				"v",
 				"vertical-align"
-			],
-			[
-				"font-",
-				"font-size"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"def",
@@ -331,12 +347,56 @@
 				"Set Syntax: HTML"
 			],
 			[
-				"htmj",
-				"Set Syntax: HTML (Jekyll)"
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
 			],
 			[
 				"list",
 				"Package Control: List Packages"
+			],
+			[
+				"ori:dpr",
+				"Origami: Destroy Pane on the Right"
+			],
+			[
+				"oripr",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"origd",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"orig:desc",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"org:d",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"ori",
+				"Origami: Create Pane Above"
+			],
+			[
+				"orig",
+				"Origami: Create Pane Below"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"orig:despr",
+				"Origami: Destroy Pane on the Right"
+			],
+			[
+				"htmj",
+				"Set Syntax: HTML (Jekyll)"
 			],
 			[
 				"lint",
@@ -531,10 +591,6 @@
 				"Origami: Create Pane Below"
 			],
 			[
-				"orig",
-				"Origami: Create Pane Below"
-			],
-			[
 				"origaremo",
 				"Origami: Remove Saved Layout"
 			],
@@ -560,10 +616,6 @@
 			],
 			[
 				"dep",
-				"Origami: Destroy Current Pane"
-			],
-			[
-				"ori",
 				"Origami: Destroy Current Pane"
 			],
 			[
@@ -801,29 +853,9 @@
 			[
 				"synjo",
 				"Set Syntax: JavaScript (NSOA)"
-			],
-			[
-				"jaon",
-				"Set Syntax: JavaScript (NSOA)"
-			],
-			[
-				"synjoa",
-				"Set Syntax: JavaScript (NSOA)"
-			],
-			[
-				"instll",
-				"Package Control: Install Package"
-			],
-			[
-				"paadd",
-				"Package Control: Add Repository"
-			],
-			[
-				"user",
-				"Preferences: Settings - User"
 			]
 		],
-		"width": 493.0
+		"width": 601.0
 	},
 	"console":
 	{
@@ -972,66 +1004,127 @@
 	"expanded_folders":
 	[
 		"/Users/rymo/Sites/apps.rymo.io",
+		"/Users/rymo/Sites/apps.rymo.io/_includes",
+		"/Users/rymo/Sites/apps.rymo.io/_layouts",
+		"/Users/rymo/Sites/apps.rymo.io/_layouts/mkatandice",
 		"/Users/rymo/Sites/apps.rymo.io/mkatandice",
-		"/Users/rymo/Sites/apps.rymo.io/mkatandice/island1"
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/islandtwo",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/rules"
 	],
 	"file_history":
 	[
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/rules/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/_layouts/mkatandice/default.html",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/mkatandice/footer.html",
 		"/Users/rymo/Sites/apps.rymo.io/mkatandice.appcache",
+		"/Users/rymo/Sites/apps.rymo.io/assets/mkatandice/js/mkatandice.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/mkatandice/js/island_legend.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/mkatandice/js/island2_gameboard.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/mkatandice/js/island1_gameboard.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/mkatandice/less/mkatandice.less",
+		"/Users/rymo/Sites/apps.rymo.io/assets/less/variable_overrides.less",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/mkatandice/navbar.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/less/style_overrides.less",
+		"/Users/rymo/Sites/apps.rymo.io/bower_components/bootstrap/less/variables.less",
+		"/Users/rymo/Sites/apps.rymo.io/bower_components/bootstrap/less/mixins/text-emphasis.less",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/main.js",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/highscores/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/less/style.less",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/scripts.html",
+		"/Users/rymo/Sites/apps.rymo.io/bower_components/bootstrap/less/bootstrap.less",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/mkatandice/head.html",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/islandtwo/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/mkatandice/js/min/mkatandice.min.js",
+		"/Users/rymo/Sites/apps.rymo.io/mkatandice/islandone/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/navbar.html",
+		"/Users/rymo/Sites/apps.rymo.io/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/.gitignore",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/mkatandice/scripts.html",
+		"/Users/rymo/Sites/apps.rymo.io/bower_components/katan-js/katan.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/fonts/Katan.eot",
+		"/Users/rymo/Sites/apps.rymo.io/assets/fonts/Katan.svg",
+		"/Users/rymo/Sites/apps.rymo.io/assets/mkatandice/js/island1_legend.js",
+		"/Users/rymo/Sites/apps.rymo.io/bower_components/katan-js/docs/README.md",
+		"/Users/rymo/Sites/apps.rymo.io/bower_components/katan-js/katan.css",
+		"/Users/rymo/Sites/apps.rymo.io/bower_components/katan-js/examples/complex.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/mkatandice/css/custom.css",
+		"/Users/rymo/Sites/apps.rymo.io/assets/mkatandice/css/flaticon.css",
+		"/Users/rymo/Sites/apps.rymo.io/assets/mkatandice/fonts/fontawesome-webfont.eot",
+		"/Users/rymo/Sites/apps.rymo.io/assets/fonts/flaticon.woff",
+		"/Users/rymo/Sites/apps.rymo.io/_config.yml",
+		"/Users/rymo/Sites/apps.rymo.io/_layouts/base.html",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/footer.html",
+		"/Users/rymo/Sites/apps.rymo.io/_data/apps.yml",
+		"/Users/rymo/Sites/apps.rymo.io/_data/social.yml",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/head.html",
+		"/Users/rymo/Sites/apps.rymo.io/_includes/ganalytics.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/less/flatui_custom.less",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/style_overrides.min.css",
+		"/Users/rymo/Sites/apps.rymo.io/assets/less/bootstrap_overrides.less",
+		"/Users/rymo/Sites/apps.rymo.io/assets/fonts/fontawesome-webfont.eot",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/min/mkatandice.min.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/resources.css",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/vendor.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/main.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/min/main.min.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/mkatandice.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/min/vendor.min.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/min/island2_gameboard.min.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/fonts/resources.eot",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/island1_legend.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/island1_gameboard.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/island2_gameboard.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/vendor.js",
+		"/Users/rymo/Sites/apps.rymo.io/assets/js/min/vendor.min.js",
+		"/Users/rymo/Sites/apps.rymo.io/config.codekit",
+		"/Users/rymo/Sites/apps.rymo.io/assets/bower_components/katan-js/katan.css",
 		"/Users/rymo/Sites/apps.rymo.io/mkatandice/island1/index.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/fonts/resources.html",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/offline-language-english-indicator.css",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/offline-theme-chrome-indicator.css",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/main.scss",
+		"/Users/rymo/Sites/apps.rymo.io/feed.xml",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/custom2.css",
+		"/Users/rymo/Sites/apps.rymo.io/_layouts/default.html",
+		"/Users/rymo/Sites/apps.rymo.io/_layouts/page.html",
+		"/Users/rymo/Sites/apps.rymo.io/_layouts/post.html",
+		"/Users/rymo/Sites/apps.rymo.io/README.md",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/offline-language-english.css",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/offline-theme-chrome.css",
+		"/Users/rymo/Sites/apps.rymo.io/assets/css/offline.sass",
 		"/Users/rymo/Sites/apps.rymo.io/mkatandice/island1/mkatandice-island1.appcache",
 		"/Users/rymo/Sites/apps.rymo.io/mkatandice/mkatandice.appcache",
-		"/Users/rymo/Sites/apps.rymo.io/mkatandice/index.html",
-		"/Users/rymo/Sites/apps.rymo.io/_layouts/mkatandice/default.html",
 		"/Users/rymo/Sites/apps.rymo.io/mkatandice/mkatandice.manifest",
 		"/Users/rymo/Sites/apps.rymo.io/mkatandice/island1/mkatandice-island1.manifest",
 		"/Users/rymo/Projects/Personal/katan-js/examples/responsive.html",
 		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/island1/game_board.js",
-		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/main.js",
 		"/Users/rymo/Projects/Personal/katan-js/examples/responsive.js",
-		"/Users/rymo/Sites/apps.rymo.io/assets/css/custom2.css",
-		"/Users/rymo/Sites/apps.rymo.io/_layouts/base.html",
-		"/Users/rymo/Sites/apps.rymo.io/_includes/mkatandice/head.html",
 		"/Users/rymo/Sites/apps.rymo.io/_site/mkatandice/index.html",
 		"/Users/rymo/Sites/apps.rymo.io/_site/mkatandice/mkatandice.manifest",
 		"/Users/rymo/Projects/Personal/katan-js/katan.js",
-		"/Users/rymo/Sites/apps.rymo.io/_includes/mkatandice/scripts.html",
-		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/vendor.js",
-		"/Users/rymo/Sites/apps.rymo.io/_includes/scripts.html",
-		"/Users/rymo/Sites/apps.rymo.io/assets/less/style.less",
 		"/Users/rymo/Sites/apps.rymo.io/assets/js/mkatandice/island1/legend.js",
 		"/Users/rymo/Sites/apps.rymo.io/_site/assets/less/style.less",
 		"/Users/rymo/Sites/apps.rymo.io/assets/css/style.min.css",
 		"/Users/rymo/Sites/apps.rymo.io/_site/assets/css/style.min.css",
-		"/Users/rymo/Sites/apps.rymo.io/_data/apps.yml",
-		"/Users/rymo/Sites/apps.rymo.io/index.html",
-		"/Users/rymo/Sites/apps.rymo.io/assets/js/vendor.js",
 		"/Users/rymo/Sites/apps.rymo.io/mcatandice/index.html",
 		"/Users/rymo/Sites/apps.rymo.io/assets/js/mcatandice/main.js",
-		"/Users/rymo/Sites/apps.rymo.io/_includes/navbar.html",
 		"/Users/rymo/Sites/apps.rymo.io/mcatandice/island1/index.html",
 		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/rymo/Sites/apps.rymo.io/about.md",
 		"/Users/rymo/Sites/apps.rymo.io/assets/js/mcatandice/island1/legend.js",
 		"/Users/rymo/Projects/Personal/mcatan-dice/index.html",
-		"/Users/rymo/Sites/apps.rymo.io/assets/css/resources.css",
 		"/Users/rymo/Sites/apps.rymo.io/_includes/mcatandice/scripts.html",
-		"/Users/rymo/Sites/apps.rymo.io/_config.yml",
 		"/Users/rymo/Sites/apps.rymo.io/_layouts/mcatandice/default.html",
-		"/Users/rymo/Sites/apps.rymo.io/_includes/head.html",
 		"/Users/rymo/Sites/apps.rymo.io/_includes/mcatandice/head.html",
 		"/Users/rymo/Sites/website/assets/less/style.less",
 		"/Users/rymo/Sites/website/projects/index.html",
 		"/Users/rymo/Sites/apps.rymo.io/_includes/mcatandice/navbar.html",
 		"/Users/rymo/Sites/rymo.io/index.html",
-		"/Users/rymo/Sites/apps.rymo.io/assets/js/main.js",
 		"/Users/rymo/Sites/apps.rymo.io/assets/less/custom.less",
 		"/Users/rymo/Sites/rymo.io/_includes/head.html",
-		"/Users/rymo/Sites/apps.rymo.io/_includes/ganalytics.html",
-		"/Users/rymo/Sites/apps.rymo.io/.gitignore",
 		"/Users/rymo/Sites/apps.rymo.io/_sublime/appsrymoio.sublime-project",
 		"/Users/rymo/Sites/apps.rymo.io/mcatandice/island2/index.html",
-		"/Users/rymo/Sites/apps.rymo.io/config.codekit",
 		"/Users/rymo/Projects/Personal/mcatan/js/game_board2.js",
 		"/Users/rymo/Projects/Personal/mcatan/js/game_board.js",
 		"/Users/rymo/Projects/Personal/mcatan/js/legend.js",
@@ -1047,64 +1140,7 @@
 		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
 		"/Users/rymo/Projects/Personal/mcatan/css/custom.css",
 		"/Users/rymo/Projects/Personal/mcatan/index2.html",
-		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/HTML (Jekyll).sublime-settings",
-		"/Users/rymo/Projects/Personal/mcatan/css/main.css",
-		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
-		"/Users/rymo/Projects/Personal/mcatan/img/.gitignore",
-		"/Users/rymo/Projects/Personal/mcatan/fonts/resources.html",
-		"/Users/rymo/Projects/Personal/mcatan/fonts/flaticon.svg",
-		"/Users/rymo/Projects/Personal/mcatan/fonts/flaticon.css",
-		"/Users/rymo/Projects/Personal/mcatan/game_board.js",
-		"/Users/rymo/default.html",
-		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/Users/rymo/.dotfiles/.gitconfig",
-		"/Users/rymo/.dotfiles/.gitattributes_global",
-		"/Users/rymo/Projects/Personal/sublime-jekyll/.git/COMMIT_EDITMSG",
-		"/Users/rymo/Projects/Personal/sublime-jekyll/jekyll.py",
-		"/Users/rymo/Sites/website/_drafts/2014-12-17-test5.md",
-		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
-		"/Users/rymo/Sites/website/_drafts/2014-12-17-test2.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-17-test.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-17-test7.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-17-test4.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-17-test3.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-16-test2.md",
-		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/rymo/Sites/website/_drafts/2014-12-16-test.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-16-test6.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-16-test5.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-16-test4.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-16-test3.md",
-		"/Users/rymo/Dropbox/sublime-text-3/Packages/User/Tomorrow-Night Markdown.tmTheme",
-		"/Users/rymo/Desktop/MarkdownExample.md",
-		"/Users/rymo/Dropbox/sublime-text-3/Packages/User/Monokai Markdown.tmTheme",
-		"/Users/rymo/Projects/Personal/sublime-jekyll/.git/TAG_EDITMSG",
-		"/Users/rymo/Projects/Personal/sublime-jekyll/messages/2.1.0.txt",
-		"/Users/rymo/Projects/Personal/sublime-jekyll/Jekyll.sublime-settings",
-		"/Users/rymo/Projects/Personal/sublime-jekyll/README.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-07-test-8.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-07-test-7-with-tags.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-07-test6.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-07-test-draft-4.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-07-draft-test3.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-07-another-test-draft.md",
-		"/Users/rymo/Sites/website/_drafts/2014-12-07-test-draft.md",
-		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/Jekyll/Jekyll.sublime-settings",
-		"/Users/rymo/Projects/Personal/sublime-jekyll/messages.json",
-		"/Users/rymo/Projects/External/virtualfishwrapper/virtualenvwrapper.fish",
-		"/Users/rymo/tmp/show_filename.fish",
-		"/Users/rymo/.config/fish/config.fish",
-		"/Users/rymo/.dotfiles/.git/COMMIT_EDITMSG",
-		"/Users/rymo/.dotfiles/README.md",
-		"/Users/rymo/.dotfiles/.osx",
-		"/Users/rymo/.dotfiles/python.sh",
-		"/Users/rymo/.dotfiles/fish.sh",
-		"/Users/rymo/Desktop/Bash Log at 2014-11-23 22.07.52.txt",
-		"/Users/rymo/.dotfiles/extras.sh",
-		"/Users/rymo/.bash_profile",
-		"/Users/rymo/.profile",
-		"/Users/rymo/.dotfiles/.bash_prompt",
-		"/Users/rymo/.dotfiles/.config/powerline/themes/shell/rymo.json"
+		"/Users/rymo/Library/Application Support/Sublime Text 3/Packages/User/HTML (Jekyll).sublime-settings"
 	],
 	"find":
 	{
@@ -1126,6 +1162,54 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"The Big Bang Theory",
+			"data-toggle=\"button\" ",
+			"bind",
+			"btn-default",
+			"calculateTotalScore",
+			"fa-fw",
+			"pt",
+			" btn-block",
+			"btn-default",
+			"6.66",
+			"/inde.html",
+			"page.id",
+			"page.tab",
+			"Katan",
+			"katan",
+			"Katan",
+			"fontawesome-webfont",
+			"resources",
+			"glyph-icon resources",
+			"resources-",
+			".resources",
+			"#bdc3c7",
+			"#34495e",
+			"#ecf0f1",
+			"#c0392b",
+			"#27ae60",
+			"#bdc3c7",
+			"#34495e",
+			"#ecf0f1",
+			"div class=\"well well-sm\"",
+			"“",
+			"”",
+			"“",
+			"span",
+			"{{ site.url }}",
+			"<i class=\"fa fa-map-marker fa-fw\"></i>",
+			"{{ app.icon }}",
+			"2x",
+			"@import \"",
+			"../..",
+			"../",
+			"assets",
+			"brick",
+			"grain",
+			"brick",
+			"animate.css",
+			"http://apps.rymo.io",
+			"mani",
 			"manife",
 			"setElementState",
 			"mcatandice",
@@ -1205,55 +1289,7 @@
 			"e",
 			"path",
 			"view.setting()",
-			"view",
-			"self.",
-			"self._",
-			"output_view",
-			"title, ",
-			"\"title\": title, ",
-			"@catch_errors",
-			"settings.get",
-			"'''",
-			"\"",
-			"_posts",
-			"$",
-			"jekyll_",
-			"markItUp!",
-			"Clickable URLs",
-			"Keybindings",
-			"ctrl",
-			"(^\\w{1})",
-			"^\\w{1}",
-			"\"",
-			"\"trigger\": \"",
-			"\"trigger\": \"[\\w\\.]+\"",
-			" \"",
-			" =>",
-			"+0",
-			"0",
-			"fa-host",
-			"btn-info",
-			"font-code",
-			"span3",
-			"span12",
-			"h3",
-			"javascript",
-			"{% include \n",
-			"{% includes\n",
-			">\n",
-			"static/",
-			"{{ link.name }}",
-			"categories",
-			"navlink",
-			"social_links",
-			"var ",
-			" link",
-			"link",
-			"baseurl }}/",
-			"LinkedIn",
-			"site.baseurl}}",
-			".highlight",
-			"tab"
+			"view"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1468,7 +1504,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 288.0,
+	"side_bar_width": 317.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

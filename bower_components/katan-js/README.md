@@ -1,18 +1,34 @@
 katan-js
 ========
 
-A simple helper library for creating Catan® themed SVG objects with the [Raphaël](http://raphaeljs.com/) library.
+A simple helper library for creating [Catan®](http://www.catan.com/) themed SVG objects with the [Raphaël](http://raphaeljs.com/) library.
 
 Basic Usage
 -----------
 
 Load the library in your HTML and create a `div` element to act as a canvas:
+
 ```html
-<script src="katan.min.js"></script>
-<div id="canvas"></div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="katan.min.css">
+    </head>
+    <body>
+        <div id="simple-example"></div>
+
+        <script src="katan+raphael.min.js"></script>
+        <script type="text/javascript">
+            /*
+             * your katan-js code goes here...
+             */
+        </script>
+    </body>
+</html>
 ```
 
 Initiate a new canvas and begin adding SVG elements:
+
 ```javascript
 var k = new Katan('simple-example', 325, 325);
 var c = k.getCanvas();
@@ -21,14 +37,14 @@ var colors = Katan.getColors();
 var oceantile = new Katan.HexTile(c);
 
 var graintile = new Katan.HexTile(c, {
-    cx: 90,
-    cy: 52,
-    fill: colors.sunflower,
-    innerCircle: true,
-    textFill: colors.sunflower,
-    resourceIcon: 'grain',
-    state: true,
-    stateFill: colors.sunflower
+    cx              : 90,
+    cy              : 52,
+    fill            : colors.sunflower,
+    innerCircle     : true,
+    innerCircleText : 'grain',
+    textFill        : colors.sunflower,
+    state           : true,
+    stateFill       : colors.sunflower
 });
 ```
 
@@ -52,12 +68,12 @@ var graintile = new Katan.HexTile(c, {
 Documentation
 -------------
 
-Available in the [docs](https://github.com/rymoio/katan-js/tree/master/docs) directory as Markdown or PDF.
+Available in the [docs](https://github.com/rymoio/katan-js/tree/master/docs) directory.
 
 Dependencies
 ------------
 
-Requires that `raphael.js` v2.1.2+ is loaded on the page. Optionally, you can load the `katan+raphael.min.js` file on your page which includes all needed features.
+Requires that `raphael.js` v2.1.1+ is loaded on the page. Optionally, you can load the `katan+raphael.min.js` file on your page which includes all needed features.
 
 Requires that `katan.css` is loaded on the page, and that the `font` directory has been copied correctly.
 

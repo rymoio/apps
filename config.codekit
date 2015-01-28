@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18270",
+"creatorBuild": "18493",
 "files": {
 	"\/_includes\/ganalytics.html": {
 		"fileType": 8192,
@@ -20,11 +20,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_includes\/header.html": {
+	"\/_includes\/mkatandice\/footer.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/header.html",
+		"inputAbbreviatedPath": "\/_includes\/mkatandice\/footer.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -96,12 +96,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2494,
+		"initialSize": 2204,
 		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/css\/style.min.css": {
 		"fileType": 16,
@@ -116,12 +116,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3380,
+		"initialSize": 1316,
 		"inputAbbreviatedPath": "\/assets\/img\/holder.png",
 		"outputAbbreviatedPath": "\/assets\/img\/holder.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/js\/main.js": {
 		"fileType": 64,
@@ -216,6 +216,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/assets\/less\/variable_overrides.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/less\/variable_overrides.less",
+		"outputAbbreviatedPath": "\/assets\/css\/variable_overrides.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/assets\/mkatandice\/css\/custom.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -243,49 +263,27 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/mkatandice\/img\/mkatandice_iphone_half.png": {
+	"\/assets\/mkatandice\/img\/mkatandice_islandone_iphone_bg_o.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.89676e+06,
-		"inputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_half.png",
-		"outputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_half.png",
+		"initialSize": 1.26412e+06,
+		"inputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_islandone_iphone_bg_o.png",
+		"outputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_islandone_iphone_bg_o.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/assets\/mkatandice\/img\/mkatandice_iphone_half_trans.png": {
+	"\/assets\/mkatandice\/img\/mkatandice_islandtwo_iphone_bg_o.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.05594e+06,
-		"inputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_half_trans.png",
-		"outputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_half_trans.png",
+		"initialSize": 1.42767e+06,
+		"inputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_islandtwo_iphone_bg_o.png",
+		"outputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_islandtwo_iphone_bg_o.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/mkatandice\/img\/mkatandice_iphone_whole.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.35473e+06,
-		"inputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_whole.png",
-		"outputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_whole.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/mkatandice\/img\/mkatandice_iphone_whole_trans.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.6172e+06,
-		"inputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_whole_trans.png",
-		"outputAbbreviatedPath": "\/assets\/mkatandice\/img\/mkatandice_iphone_whole_trans.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/mkatandice\/js\/island1_gameboard.js": {
 		"fileType": 64,
@@ -1308,7 +1306,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/bootstrap\/less\/bootstrap.less",
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/css\/bootstrap.min.css",
@@ -2722,7 +2720,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Book.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Calendar.png": {
 		"fileType": 32768,
@@ -2733,7 +2731,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Calendar.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Chat.png": {
 		"fileType": 32768,
@@ -2744,7 +2742,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Chat.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Clipboard.png": {
 		"fileType": 32768,
@@ -2755,7 +2753,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Clipboard.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Compas.png": {
 		"fileType": 32768,
@@ -2766,7 +2764,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Compas.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Gift-Box.png": {
 		"fileType": 32768,
@@ -2777,7 +2775,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Gift-Box.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Infinity-Loop.png": {
 		"fileType": 32768,
@@ -2788,7 +2786,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Infinity-Loop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Mail.png": {
 		"fileType": 32768,
@@ -2799,7 +2797,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Mail.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Map.png": {
 		"fileType": 32768,
@@ -2810,7 +2808,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Map.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Pensils.png": {
 		"fileType": 32768,
@@ -2821,7 +2819,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Pensils.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Pocket.png": {
 		"fileType": 32768,
@@ -2832,7 +2830,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Pocket.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Retina-Ready.png": {
 		"fileType": 32768,
@@ -2843,7 +2841,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Retina-Ready.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Toilet-Paper.png": {
 		"fileType": 32768,
@@ -2854,7 +2852,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Toilet-Paper.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Watches.png": {
 		"fileType": 32768,
@@ -2865,7 +2863,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/icons\/png\/Watches.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/login\/icon.png": {
 		"fileType": 32768,
@@ -2876,7 +2874,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/login\/icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/login\/imac-2x.png": {
 		"fileType": 32768,
@@ -2887,7 +2885,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/login\/imac-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/login\/imac.png": {
 		"fileType": 32768,
@@ -2898,7 +2896,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/login\/imac.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/tile\/ribbon-2x.png": {
 		"fileType": 32768,
@@ -2909,7 +2907,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/tile\/ribbon-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/img\/tile\/ribbon.png": {
 		"fileType": 32768,
@@ -2920,7 +2918,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/dist\/img\/tile\/ribbon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/dist\/index.html": {
 		"fileType": 8192,
@@ -3084,7 +3082,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-author.jpg": {
 		"fileType": 16384,
@@ -3095,7 +3093,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-author.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-1.jpg": {
 		"fileType": 16384,
@@ -3106,7 +3104,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-2.jpg": {
 		"fileType": 16384,
@@ -3117,7 +3115,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-3.jpg": {
 		"fileType": 16384,
@@ -3128,7 +3126,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-4.jpg": {
 		"fileType": 16384,
@@ -3139,7 +3137,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-5.jpg": {
 		"fileType": 16384,
@@ -3150,7 +3148,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-6.jpg": {
 		"fileType": 16384,
@@ -3161,7 +3159,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser-pic-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser.png": {
 		"fileType": 32768,
@@ -3172,7 +3170,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/browser.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/html-icon.png": {
 		"fileType": 32768,
@@ -3183,7 +3181,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/html-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/logo-mask-2x.png": {
 		"fileType": 32768,
@@ -3194,7 +3192,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/logo-mask-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/logo-mask.png": {
 		"fileType": 32768,
@@ -3205,7 +3203,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/logo-mask.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/video.jpg": {
 		"fileType": 16384,
@@ -3216,7 +3214,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/demo\/video.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/example-image.jpg": {
 		"fileType": 16384,
@@ -3227,7 +3225,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/example-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/footer\/logo.png": {
 		"fileType": 32768,
@@ -3238,7 +3236,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/footer\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/getting-started\/icomoon_import.jpg": {
 		"fileType": 16384,
@@ -3249,7 +3247,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/getting-started\/icomoon_import.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/img\/video\/poster.jpg": {
 		"fileType": 16384,
@@ -3260,7 +3258,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/docs\/assets\/img\/video\/poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/docs\/assets\/js\/application.js": {
 		"fileType": 64,
@@ -3493,7 +3491,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Book.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Calendar.png": {
 		"fileType": 32768,
@@ -3504,7 +3502,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Calendar.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Chat.png": {
 		"fileType": 32768,
@@ -3515,7 +3513,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Chat.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Clipboard.png": {
 		"fileType": 32768,
@@ -3526,7 +3524,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Clipboard.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Compas.png": {
 		"fileType": 32768,
@@ -3537,7 +3535,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Compas.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Gift-Box.png": {
 		"fileType": 32768,
@@ -3548,7 +3546,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Gift-Box.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Infinity-Loop.png": {
 		"fileType": 32768,
@@ -3559,7 +3557,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Infinity-Loop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Mail.png": {
 		"fileType": 32768,
@@ -3570,7 +3568,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Mail.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Map.png": {
 		"fileType": 32768,
@@ -3581,7 +3579,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Map.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Pensils.png": {
 		"fileType": 32768,
@@ -3592,7 +3590,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Pensils.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Pocket.png": {
 		"fileType": 32768,
@@ -3603,7 +3601,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Pocket.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Retina-Ready.png": {
 		"fileType": 32768,
@@ -3614,7 +3612,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Retina-Ready.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Toilet-Paper.png": {
 		"fileType": 32768,
@@ -3625,7 +3623,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Toilet-Paper.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/icons\/png\/Watches.png": {
 		"fileType": 32768,
@@ -3636,7 +3634,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/icons\/png\/Watches.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/login\/icon.png": {
 		"fileType": 32768,
@@ -3647,7 +3645,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/login\/icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/login\/imac-2x.png": {
 		"fileType": 32768,
@@ -3658,7 +3656,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/login\/imac-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/login\/imac.png": {
 		"fileType": 32768,
@@ -3669,7 +3667,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/login\/imac.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/tile\/ribbon-2x.png": {
 		"fileType": 32768,
@@ -3680,7 +3678,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/tile\/ribbon-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/img\/tile\/ribbon.png": {
 		"fileType": 32768,
@@ -3691,7 +3689,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/flat-ui\/img\/tile\/ribbon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/flat-ui\/index.html": {
 		"fileType": 8192,
@@ -6362,74 +6360,11 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
-	"\/bower_components\/katan-js\/build.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/katan-js\/build.js",
-		"outputAbbreviatedPath": "\/bower_components\/katan-js\/min\/build.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
-		},
-	"\/bower_components\/katan-js\/docs\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/katan-js\/docs\/README.md",
-		"outputAbbreviatedPath": "\/bower_components\/katan-js\/docs\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/katan-js\/examples\/complex.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/katan-js\/examples\/complex.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/katan-js\/examples\/complex.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/katan-js\/examples\/complex.js",
-		"outputAbbreviatedPath": "\/bower_components\/katan-js\/examples\/min\/complex.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
-		},
-	"\/bower_components\/katan-js\/examples\/simple.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/katan-js\/examples\/simple.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/katan-js\/examples\/simple.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/katan-js\/examples\/simple.js",
-		"outputAbbreviatedPath": "\/bower_components\/katan-js\/examples\/min\/simple.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
-		},
-	"\/bower_components\/katan-js\/katan.css": {
+	"\/bower_components\/katan-js\/css\/katan.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/katan-js\/katan.css",
+		"inputAbbreviatedPath": "\/bower_components\/katan-js\/css\/katan.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6456,6 +6391,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
+	"\/bower_components\/katan-js\/min\/katan-extras.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/katan-js\/min\/katan-extras.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/katan-js\/min\/min\/katan-extras.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
 	"\/bower_components\/katan-js\/min\/katan.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -6471,17 +6417,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/katan-js\/min\/katan.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/katan-js\/min\/min\/katan.min.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
-		},
-	"\/bower_components\/katan-js\/raphael.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/katan-js\/raphael.js",
-		"outputAbbreviatedPath": "\/bower_components\/katan-js\/min\/raphael.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -7652,7 +7587,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/media\/Modernizr 2 Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/modernizr.js": {
 		"fileType": 64,
@@ -7704,7 +7639,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/alpha.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/apng_test.png": {
 		"fileType": 32768,
@@ -7715,7 +7650,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/apng_test.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/before-after.png": {
 		"fileType": 32768,
@@ -7726,7 +7661,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/before-after.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/form_validation.html": {
 		"fileType": 8192,
@@ -7757,7 +7692,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/green5x5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/hashchange.html": {
 		"fileType": 8192,
@@ -7797,7 +7732,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/mathml_ref.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/modernizr-1.7.min.js": {
 		"fileType": 64,
@@ -7819,7 +7754,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/png_alpha_result.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/pushstate.html": {
 		"fileType": 8192,
@@ -7839,7 +7774,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/red30x30.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/ruby.png": {
 		"fileType": 32768,
@@ -7850,7 +7785,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/ruby.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/stroked-text.png": {
 		"fileType": 32768,
@@ -7861,7 +7796,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/stroked-text.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/style.css": {
 		"fileType": 16,
@@ -7881,7 +7816,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/svg-html-blur.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/svg_blur.png": {
 		"fileType": 32768,
@@ -7892,7 +7827,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/svg_blur.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/table.png": {
 		"fileType": 32768,
@@ -7903,7 +7838,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/table.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/text-shadow1.png": {
 		"fileType": 32768,
@@ -7914,7 +7849,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/text-shadow1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/text-shadow2.png": {
 		"fileType": 32768,
@@ -7925,7 +7860,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/text-shadow2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/windsong_font.png": {
 		"fileType": 32768,
@@ -7936,7 +7871,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizer\/test\/caniuse_files\/windsong_font.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizer\/test\/caniuse_files\/xhtml.html": {
 		"fileType": 8192,
@@ -10250,12 +10185,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6526,
+		"initialSize": 5074,
 		"inputAbbreviatedPath": "\/touch-icon-192x192.png",
 		"outputAbbreviatedPath": "\/touch-icon-192x192.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		}
 	},
 "hooks": [
@@ -10265,7 +10200,7 @@
 		"name": "Create Fonts Directory via Rsync",
 		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMjY7PEFFS1BRVlxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy8wMV8QEE5TU2VsZkV4cHJlc3Npb25cTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMzWhNIAJgAzTCx83ODk6WU5TS2V5UGF0aIALEAqACl1pbnB1dEZ1bGxQYXRo0issPT5fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz9AMV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0issQkNeTlNNdXRhYmxlQXJyYXmjQkQxV05TQXJyYXnSKyxGR18QE05TS2V5UGF0aEV4cHJlc3Npb26kSElKMV8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27TTB8LTU5PXxAPTlNDb25zdGFudFZhbHVlgA8QAIAQXGFwcHMucnltby5pb9IrLFJTXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNUVTFfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uXE5TRXhwcmVzc2lvbtQLV1hZWk4oW1pOU01vZGlmaWVyV05TRmxhZ3NeTlNPcGVyYXRvclR5cGWAEhBj0issXV5fEBVOU0luUHJlZGljYXRlT3BlcmF0b3KjX2AxXxAVTlNJblByZWRpY2F0ZU9wZXJhdG9yXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLGJjXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2RlMV8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZVtOU1ByZWRpY2F0ZdIrLERnokQx0issaWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2tsMV8QE05TQ29tcG91bmRQcmVkaWNhdGVbTlNQcmVkaWNhdGVfEA9OU0tleWVkQXJjaGl2ZXLRb3BUcm9vdIABAAgAEQAaACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYAmwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEFAQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAV0BYgFtAXYBiQGNAaABrQG2AbsBvQG\/AcEByAHSAdQB1gHYAeYB6wIKAg4CLQI6Aj8CTgJSAloCXwJ1AnoCkAKnArQCuwLNAs8C0QLTAuAC5QMBAwUDIQMuAzcDQgNKA1kDWwNdA2IDegN+A5YDrAOxA8kDzQPlA\/ED9gP5A\/4EFAQYBC4EOgRMBE8EVAAAAAAAAAIBAAAAAAAAAHEAAAAAAAAAAAAAAAAAAARW",
 		"runOrder": 0,
-		"scriptSourceString": "for dir in \/Users\/rymo\/Sites\/apps.rymo.io\/bower_components\/font-awesome\/fonts \/Users\/rymo\/Sites\/apps.rymo.io\/bower_components\/bootstrap\/dist\/fonts; do\n    rsync -avh $dir \/Users\/rymo\/Sites\/apps.rymo.io\/assets\/\ndone\n\nfor dir in \/Users\/rymo\/Sites\/apps.rymo.io\/bower_components\/katan-js\/fonts; do\n    rsync -avh $dir \/Users\/rymo\/Sites\/apps.rymo.io\/assets\/mkatandice\ndone",
+		"scriptSourceString": "for dir in \/Users\/rymo\/Sites\/apps.rymo.io\/bower_components\/font-awesome\/fonts \/Users\/rymo\/Sites\/apps.rymo.io\/bower_components\/bootstrap\/dist\/fonts; do\n    rsync -avh $dir \/Users\/rymo\/Sites\/apps.rymo.io\/assets\/\ndone\n\nfor dir in \/Users\/rymo\/Sites\/apps.rymo.io\/bower_components\/katan-js\/fonts; do\n    rsync -avh $dir \/Users\/rymo\/Sites\/apps.rymo.io\/assets\/mkatandice\/\ndone",
 		"uuidString": "F5BE1D30-CF6C-4C1A-8FB2-BA748EF4B885"
 		}
 	],
@@ -10276,7 +10211,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "apps.rymo.io",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "harddrive_gray"
+	"iconImageName": "pencil_orange"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
@@ -10315,6 +10250,10 @@
 			},
 		"empty_constructor_needs_parens": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"indentation": {
@@ -10408,6 +10347,10 @@
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
 			}
 		},
 	"coffeeMinifyOutput": 1,
@@ -10464,6 +10407,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -10486,6 +10433,10 @@
 			},
 		"dojo": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -10540,6 +10491,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"jquery": {
 			"active": 1,
 			"flagValue": -1
@@ -10583,6 +10538,10 @@
 		"maxstatements": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"mootools": {
 			"active": 0,
@@ -10649,6 +10608,10 @@
 			"flagValue": -1
 			},
 		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -10876,6 +10839,7 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
+	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 0,
@@ -10900,8 +10864,9 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptNoResolve": 0,
+	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -10938,6 +10903,10 @@
 			"flagValue": -1
 			},
 		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -10981,6 +10950,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -10993,8 +10966,16 @@
 			"active": 1,
 			"flagValue": 32000
 			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"properties": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {

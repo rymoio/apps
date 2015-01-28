@@ -1,7 +1,7 @@
 ---
 ---
 CACHE MANIFEST
-# v1.1 | {{ site.time | date_to_xmlschema }}
+# v5.0 | {{ site.time | date_to_xmlschema }}
 
 # html
 /index.html
@@ -41,8 +41,8 @@ CACHE MANIFEST
 /assets/mkatandice/fonts/flaticon.woff
 
 # images
-/assets/mkatandice/img/dice.svg
-/assets/mkatandice/img/mkatandice_iphone_whole_trans.png
+/assets/mkatandice/img/mkatandice_islandone_iphone_bg_o.png
+/assets/mkatandice/img/mkatandice_islandtwo_iphone_bg_o.png
 
 NETWORK:
 *

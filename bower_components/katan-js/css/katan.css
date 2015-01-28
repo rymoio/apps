@@ -9,7 +9,7 @@
 
 @font-face {
 	font-family: "Katan";
-    src: url('fonts/Katan.eot?') format('eot'), url('fonts/Katan.woff') format('woff'), url('fonts/Katan.ttf') format('truetype'), url('fonts/Katan.svg') format('svg');
+    src: url('../fonts/Katan.eot?') format('eot'), url('../fonts/Katan.woff') format('woff'), url('../fonts/Katan.ttf') format('truetype'), url('../fonts/Katan.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

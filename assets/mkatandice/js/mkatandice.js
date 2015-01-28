@@ -144,11 +144,17 @@ $(function() {
 
             rolls_left = rolls_left - 1;
         } else {
-            $('#score-modal').modal('show');
-            $('#score-modal').on('hidden.bs.modal', function (e) {
+            var scoreModal = $('#score-modal');
+            if (scoreModal && scoreModal.length > 0) {
+                scoreModal.modal('show');
+                scoreModal.on('hidden.bs.modal', function (e) {
+                    rolls_left = 3;
+                    clearDiceRack();
+                });
+            } else {
                 rolls_left = 3;
                 clearDiceRack();
-            });
+            }
         }
 
         // update rolls left
@@ -197,11 +203,6 @@ $(function() {
     /**
      * MODAL CONTROLS
      */
-    $('#reset').on('click', function(ev) {
-        ev.preventDefault();
-        $('#reset-modal').modal('show');
-    });
-
     $('#score-modal').on('show.bs.modal', function (e) {
         var currentRoll = $('#navbar-dice-roll').clone().removeClass('pull-right').addClass('table-centered');
         $('#modal-current-roll').empty().append(currentRoll);

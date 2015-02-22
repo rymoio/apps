@@ -1,7 +1,7 @@
 ---
 ---
 CACHE MANIFEST
-# v5.0 | {{ site.time | date_to_xmlschema }}
+# v6.0 | {{ site.time | date_to_xmlschema }}
 
 # html
 /index.html
@@ -15,30 +15,16 @@ CACHE MANIFEST
 /assets/css/style.min.css
 /assets/mkatandice/css/mkatandice.min.css
 
-
 # javascripts
 /assets/js/min/modernizr.min.js
 /assets/js/min/main.min.js
 /assets/mkatandice/js/min/mkatandice.min.js
 
 # fonts
-/assets/fonts/fontawesome-webfont.eot
-/assets/fonts/fontawesome-webfont.svg
 /assets/fonts/fontawesome-webfont.ttf
-/assets/fonts/fontawesome-webfont.woff
-/assets/fonts/FontAwesome.otf
-/assets/fonts/glyphicons-halflings-regular.eot
-/assets/fonts/glyphicons-halflings-regular.svg
 /assets/fonts/glyphicons-halflings-regular.ttf
-/assets/fonts/glyphicons-halflings-regular.woff
-/assets/mkatandice/fonts/Katan.eot
-/assets/mkatandice/fonts/Katan.svg
 /assets/mkatandice/fonts/Katan.ttf
-/assets/mkatandice/fonts/Katan.woff
-/assets/mkatandice/fonts/flaticon.eot
-/assets/mkatandice/fonts/flaticon.svg
 /assets/mkatandice/fonts/flaticon.ttf
-/assets/mkatandice/fonts/flaticon.woff
 
 # images
 /assets/mkatandice/img/mkatandice_islandone_iphone_bg_o.png
